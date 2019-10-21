@@ -1,0 +1,46 @@
+nav#navbar-main {
+    color: white;
+}
+.btn-twitter {
+    color: #fff;
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.btn-icon-only {
+    width: 2.375rem;
+    height: 2.375rem;
+    padding: 0;
+}
+.btn-group-lg>.btn, .btn-lg {
+    font-size: .875rem;
+}
+.btn {
+    position: relative;
+    text-transform: uppercase;
+    transition: all .15s ease;
+    will-change: transform;
+    letter-spacing: .025em;
+    font-size: .875rem;
+}
+a.btn-icon-only {
+    line-height: 2.5;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5999;
+    border-color: #3b5999;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.btn-dribbble {
+    color: #fff;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.btn-github {
+    color: #fff;
+    background-color: #222;
+    border-color: #222;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}

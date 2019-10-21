@@ -1,0 +1,176 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title">Task</h4>
+                        <p class="card-category" *ngFor="let a of testaa">Add Your Task Daily Base</p>
+                    </div>
+                    <div class="card-body">
+                        <form [formGroup]="frmTaskDetails" (ngSubmit)="addupdatetask()">
+                            <input type="hidden" formControlName="$key">
+                            <input type="hidden" formControlName="userid">
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput formControlName="project" placeholder="Project">
+                                    </mat-form-field>
+
+                                </div>
+                                <div class="col-md-3">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput formControlName="title" placeholder="Task Title">
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput [matDatepicker]="pickerstart" formControlName="startdate"
+                                            placeholder="Choose Start Date">
+                                        <mat-datepicker-toggle matSuffix [for]="pickerstart"></mat-datepicker-toggle>
+                                        <mat-datepicker #pickerstart></mat-datepicker>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-3">
+                                   
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput formControlName="enddate" [matDatepicker]="pickerend"
+                                            placeholder="Choose End Date">
+                                        <mat-datepicker-toggle matSuffix [for]="pickerend"></mat-datepicker-toggle>
+                                        <mat-datepicker #pickerend  [startAt]="startdate"></mat-datepicker>
+                                    </mat-form-field>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <mat-form-field class="example-full-width">
+                                        <mat-label>Status {{status}}</mat-label>
+                                        <mat-select formControlName="status" [(ngModel)]="status" >
+                                            <mat-option [value]="item.key"  *ngFor="let item of taskStatusArray">
+                                                    {{item.value}}
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                                <!-- <div class="col-md-3">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput  formControlName="completestatus" placeholder="Status In Percentage" type="text">
+                                  </mat-form-field>
+                                </div> -->
+                                <div class="col-md-2">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput formControlName="hours" placeholder="Expected Hours"
+                                            type="number">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-5">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput formControlName="description" placeholder="Task Description" type="text">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-3">
+                                    <section class="example-section">
+                                        <label class="example-margin">Progress:</label>
+                                        <mat-slider class="example-margin" [(ngModel)]="completestatus"
+                                            formControlName="completestatus">
+
+                                        </mat-slider> &nbsp; {{completestatus}} %
+                                    </section>
+                                </div>
+
+                            </div>
+
+                            <button mat-raised-button type="submit" class="btn btn-danger pull-right">Add Task</button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Task List</h4>
+                        <p class="card-category">All Task List With Status</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>
+                                        S.No.
+                                    </th>
+                                    <th>
+                                        Project
+                                    </th>
+                                    <th>
+                                        Title
+                                    </th>
+                                    <th>
+                                        Start Date
+                                    </th>
+                                    <th>
+                                        End Date
+                                    </th>
+                                    <th>
+                                        Duration
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                    <th style="text-align: right;">
+                                        Action
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of taskArray; index as i">
+                                        <td>
+                                            {{i+1}}
+                                        </td>
+                                        <td>
+                                            {{item.project}}
+                                        </td>
+                                        <td>
+                                            {{item.title}}
+                                        </td>
+                                        <td>
+                                            {{item.startdate.seconds  * 1000 | date:'dd-MM-yyyy'}}
+                                        </td>
+                                        <td class="text-primary">
+                                            {{item.enddate.seconds  * 1000 | date:'dd-MM-yyyy'}}
+                                        </td>
+                                        <td class="text-primary">
+                                            {{item.hours}}
+                                        </td>
+                                        <td class="text-primary">
+                                            {{item.status}} - ({{item.completestatus}} %)
+                                        </td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(item.$key)"
+                                                [matTooltipPosition]="'above'"
+                                                class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" (click)="delete(item.$key)"
+                                                [matTooltipPosition]="'above'"
+                                                class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
