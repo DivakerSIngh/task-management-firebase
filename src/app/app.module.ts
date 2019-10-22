@@ -14,6 +14,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AccountLayoutComponent } from './layouts/account-layout/account-layout.component';
+import { MatProgressSpinnerModule } from '@angular/material';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AccountLayoutComponent } from './layouts/account-layout/account-layout.
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
+    MatProgressSpinnerModule,
     AgmCoreModule.forRoot({
       apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
     })

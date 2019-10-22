@@ -83,7 +83,7 @@
 
                             </div>
 
-                            <button mat-raised-button type="submit" class="btn btn-danger pull-right">Add Task</button>
+                            <button mat-raised-button type="submit" class="btn btn-danger pull-right">{{buttonText}}</button>
                             <div class="clearfix"></div>
                         </form>
                     </div>
@@ -152,7 +152,7 @@
                                             {{item.status}} - ({{item.completestatus}} %)
                                         </td>
                                         <td class="td-actions text-right">
-                                            <button mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(item.$key)"
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(item)"
                                                 [matTooltipPosition]="'above'"
                                                 class="btn btn-primary btn-link btn-sm btn-just-icon">
                                                 <i class="material-icons">edit</i>
@@ -166,6 +166,11 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <mat-paginator [length]="length"
+    [pageSize]="pageSize"
+    [pageSizeOptions]="pageSizeOptions"
+    (page)="getAll($event)">
+</mat-paginator>
                         </div>
                     </div>
                 </div>

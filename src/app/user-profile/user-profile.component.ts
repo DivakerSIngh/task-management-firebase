@@ -5,6 +5,7 @@ import { AppServiceService } from 'app/services/app-service.service';
 import { MatSnackBar } from '@angular/material';
 import { customeFirebaseList, Collection } from 'app/common/collection';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { LoaderService } from 'app/services/loader.service';
 
 @Component({
   selector: 'app-user-profile',
@@ -33,41 +34,38 @@ export class UserProfileComponent implements OnInit {
 
   constructor(
     private authservice: AngularFireAuth, private route: Router,
-    private appService: AppServiceService
+    private appService: AppServiceService,private loader:LoaderService
 
   ) { }
 
   ngOnInit() {
     debugger
+    //this.loader.display(true);
     var userId = localStorage.getItem('userid');
     this.appService.get(customeFirebaseList.usersProfile, userId)
-      // .then((querySnapshot) => {
-      //   querySnapshot.forEach((doc) => {
-      //     let data = doc.data();
-      //     this.frmUserDetails.setValue({
-      //       $key:doc.id,
-      //       userid: data.userid,
-      //       firstname: data.firstname,
-      //       lastname: data.lastname,
-      //       fullname: data.fullname,
-      //       email: data.email,
-      //       company: data.company,
-      //       address: data.address,
-      //       mobile: data.mobile,
-      //       designation: data.designation,
-      //       skills: data.skills,
-      //       profilepic: data.profilepic,
-      //       dtcreateddate: data.dtcreateddate
-      //     });
-      //     console.log(this.frmUserDetails.value)
-      //   });
-      // }
-      // )
-      // .catch((error) => {
-      //   console.log("Error getting documents: ", error);
-      // });
-
-   
+    .onSnapshot((querySnapshot)=>{  
+      this.frmUserDetails.reset();    
+       querySnapshot.forEach((doc) => {
+        let data=doc.data();
+        this.frmUserDetails.setValue({
+                $key:doc.id,
+                userid: data.userid,
+                firstname: data.firstname,
+                lastname: data.lastname,
+                fullname: data.fullname,
+                email: data.email,
+                company: data.company,
+                address: data.address,
+                mobile: data.mobile,
+                designation: data.designation,
+                skills: data.skills,
+                profilepic: data.profilepic,
+                dtcreateddate: data.dtcreateddate,
+                about:data.dtcreateddate,
+              });
+              this.loader.display(false);
+      });
+    })
   }
   updateProfile(){
     this.appService.update(customeFirebaseList.usersProfile,this.frmUserDetails.value.$key,this.frmUserDetails.value).then(()=>{

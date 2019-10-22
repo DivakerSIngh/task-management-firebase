@@ -1,0 +1,24 @@
+.loderSpinner{
+    position: fixed;
+      z-index: 999;
+      margin: auto;
+      top: 50%;
+      left: 50%;
+      height: 100%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      background: rgba(255,255,255,.2);
+      width: 100%;
+  }
+
+  .mat-progress-spinner {
+    display: block;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+  }

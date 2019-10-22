@@ -18,7 +18,8 @@ import {
   MatSnackBarModule,
   MatSliderModule,
   MatDatepickerModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  MatPaginatorModule
 } from '@angular/material';
 import { AngularFireAuthModule, AngularFireAuth } from '@angular/fire/auth';
 import { environment } from 'environments/environment';
@@ -42,6 +43,7 @@ import { TaskdetailsComponent } from 'app/taskdetails/taskdetails.component';
     MatTooltipModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatPaginatorModule,
     AngularFireAuthModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule
