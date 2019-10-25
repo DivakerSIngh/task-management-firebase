@@ -5,7 +5,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { Router } from '@angular/router';
 import { AppServiceService } from 'app/services/app-service.service';
 import { MatSnackBar } from '@angular/material';
-
+import { auth } from 'firebase/app';
 @Component({
   selector: 'app-signin',
   templateUrl: './signin.component.html',
@@ -54,5 +54,13 @@ export class SigninComponent implements OnInit {
     }).catch((res)=>{
       this.appService.openSnackBar(res.message);
     })
+  }
+
+  googleLogin() {
+    const provider = new auth.GoogleAuthProvider()
+    return this.oAuthLogin(provider);
+  }
+  private oAuthLogin(provider) {
+    return this.appService.googleLogin(provider);
   }
 }

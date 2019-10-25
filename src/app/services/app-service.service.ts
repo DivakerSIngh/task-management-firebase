@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { MatSnackBar } from '@angular/material';
 import { AngularFireAuth } from '@angular/fire/auth';
+
 @Injectable({
   providedIn: 'root',
   
@@ -74,6 +75,12 @@ doSignIn(email,password){
 //#endregion
 
 
+googleLogin(provider){
+  return this.authservice.auth.signInWithPopup(provider)
+  .then((credential) => {
+    //this.updateUserData(credential.user)
+  })
+}
 
 
 
