@@ -36,15 +36,18 @@ export class UserProfileComponent implements OnInit {
     private authservice: AngularFireAuth, private route: Router,
     private appService: AppServiceService,private loader:LoaderService
 
-  ) { }
+  ) { 
+    this.loader.display(true);
+  }
 
-  ngOnInit() {
+  getUserDetails(){
     debugger
     //this.loader.display(true);
     var userId = localStorage.getItem('userid');
     this.appService.get(customeFirebaseList.usersProfile, userId)
     .onSnapshot((querySnapshot)=>{  
-      this.frmUserDetails.reset();    
+      this.frmUserDetails.reset(); 
+      this.loader.display(false);   
        querySnapshot.forEach((doc) => {
         let data=doc.data();
         this.frmUserDetails.setValue({
@@ -63,9 +66,17 @@ export class UserProfileComponent implements OnInit {
                 dtcreateddate: data.dtcreateddate,
                 about:data.dtcreateddate,
               });
-              this.loader.display(false);
+             
       });
-    })
+    
+    },(err)=>{
+      debugger
+    })    
+  }
+  ngOnInit() {
+    setTimeout(() => {
+      this.getUserDetails();
+    }, 800);
   }
   updateProfile(){
     this.appService.update(customeFirebaseList.usersProfile,this.frmUserDetails.value.$key,this.frmUserDetails.value).then(()=>{
@@ -77,6 +88,10 @@ export class UserProfileComponent implements OnInit {
 
     })
 
+  }
+
+  ngOnDestroy(){
+    
   }
 
 }

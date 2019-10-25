@@ -27,9 +27,9 @@ import { MatProgressSpinnerModule } from '@angular/material';
     RouterModule,
     AppRoutingModule,
     MatProgressSpinnerModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
-    })
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
+    // })
   ],
   declarations: [
     AppComponent,

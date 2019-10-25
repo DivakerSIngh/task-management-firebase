@@ -45,11 +45,16 @@ event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
    private loader:LoaderService,
    private db: AngularFirestore
     
-    ) { }
+    ) { 
+      this.loader.display(true);
+    }
 
   ngOnInit() {
     this.userId=localStorage.getItem('userid');
-    this.getAll(this.event);
+    setTimeout(() => {
+      this.getAll(this.event);
+    }, 400);
+   
   }
 
   addupdatetask(){
@@ -75,12 +80,11 @@ event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
   }
 
   getAll(event?: PageEvent){
-    debugger
+    
     this.appService.get(customeFirebaseList.task,this.userId).onSnapshot((querySnapshot)=>{
       this.loader.display(false);
       this.taskArray=[];
        querySnapshot.forEach((doc) => {
-         debugger
         let obj=doc.data();
         obj.$key=doc.id;
        this.taskArray.push(obj);
@@ -89,9 +93,7 @@ event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
     })
   }
   delete(id){
-    debugger
     this.appService.delete(customeFirebaseList.task,id);
-
   }
   edit(item){
     this.frmTaskDetails.setValue({
