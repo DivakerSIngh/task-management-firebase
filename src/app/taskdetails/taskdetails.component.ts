@@ -9,6 +9,7 @@ import { LoaderService } from 'app/services/loader.service';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { stringify } from '@angular/compiler/src/util';
 
+
 @Component({
   selector: 'app-taskdetails',
   templateUrl: './taskdetails.component.html',
@@ -112,7 +113,9 @@ dtcreateddate: new Date().toJSON()
 
   }
   
+  showNotification(message,type){
 
-  
+    this.loader.showNotification(message,type);
+  }
 
 }
