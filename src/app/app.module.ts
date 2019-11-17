@@ -15,6 +15,7 @@ import {
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AccountLayoutComponent } from './layouts/account-layout/account-layout.component';
 import { MatProgressSpinnerModule } from '@angular/material';
+import { PopupsComponent } from './components/popups/popups.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { MatProgressSpinnerModule } from '@angular/material';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    
     HttpModule,
     ComponentsModule,
     RouterModule,
@@ -34,7 +36,8 @@ import { MatProgressSpinnerModule } from '@angular/material';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    AccountLayoutComponent
+    AccountLayoutComponent,
+    
    
   ],
   providers: [],

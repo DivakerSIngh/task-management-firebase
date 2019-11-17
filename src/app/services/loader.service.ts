@@ -38,7 +38,7 @@ constructor(private router: Router) {
 
     $.notify({
         icon: "notifications",
-        message: "Welcome to <b>Material Dashboard</b> - a beautiful freebie for every web developer."
+        message: message
 
     },{
         type:type,// type[color],

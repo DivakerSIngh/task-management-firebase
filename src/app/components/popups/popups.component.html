@@ -1,0 +1,17 @@
+
+
+
+
+<div>
+    <h3 md-dialog-title>{{header}}</h3>
+    <div md-dialog-content>
+        {{subheader}}
+        <div class="col-xs-12" *ngFor="let item of items; index as i">
+                        <span class="k-val">{{item}}</span>
+            </div>
+    </div>
+
+    <div md-dialog-actions>
+      <button md-button (click)="dialogRef.close()" class="btn btn-danger-cancel btn-round pull-right">Close</button>
+    </div>
+</div>

@@ -19,7 +19,8 @@ import {
   MatSliderModule,
   MatDatepickerModule,
   MatNativeDateModule,
-  MatPaginatorModule
+  MatPaginatorModule,
+  MatDialogModule
 } from '@angular/material';
 import { AngularFireAuthModule, AngularFireAuth } from '@angular/fire/auth';
 import { environment } from 'environments/environment';
@@ -27,6 +28,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule, AngularFirestore } from '@angular/fire/firestore';
 import { AppServiceService } from 'app/services/app-service.service';
 import { TaskdetailsComponent } from 'app/taskdetails/taskdetails.component';
+import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/database';
+import { PopupsComponent } from 'app/components/popups/popups.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -35,6 +38,7 @@ import { TaskdetailsComponent } from 'app/taskdetails/taskdetails.component';
     ReactiveFormsModule,
     MatButtonModule,
     MatRippleModule,
+    MatInputModule,
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
@@ -46,16 +50,19 @@ import { TaskdetailsComponent } from 'app/taskdetails/taskdetails.component';
     MatPaginatorModule,
     AngularFireAuthModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    MatDialogModule
   ],
   declarations: [
     DashboardComponent,
     UserProfileComponent,
     TableListComponent,
     MapsComponent,
-    TaskdetailsComponent
+    TaskdetailsComponent,
+    PopupsComponent
   ],
-  providers:[AppServiceService,AngularFireAuth,AngularFirestore]
+  providers:[AppServiceService,AngularFireAuth,AngularFirestore],
+  entryComponents:[PopupsComponent]
 })
 
 export class AdminLayoutModule {}

@@ -1,4 +1,5 @@
 <div class="main-content">
+      
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -11,29 +12,40 @@
                         <form [formGroup]="frmTaskDetails" (ngSubmit)="addupdatetask()">
                             <input type="hidden" formControlName="$key">
                             <input type="hidden" formControlName="userid">
+                             <input type="hidden" formControlName="dtcreateddate">
+                             <input type="hidden" formControlName="completestatus">
+                             <input type="hidden" formControlName="enddate">
+                             <input type="hidden" formControlName="hours">
+                             <input type="hidden" formControlName="status">
+                           
+                            
 
                             <div class="row">
                                 <div class="col-md-3">
-                                    <mat-form-field class="example-full-width">
+                                    <!-- <mat-form-field class="example-full-width">
                                         <input matInput formControlName="project" placeholder="Project">
-                                    </mat-form-field>
+                                    </mat-form-field> -->
+                                    <mat-form-field class="example-full-width">
+                                            <mat-label>Project {{project}}</mat-label>
+                                            <mat-select formControlName="project" [(ngModel)]="project" >
+                                                <mat-option [value]="item.key"  *ngFor="let item of projectsArray">
+                                                        {{item.value}}
+                                                </mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
 
                                 </div>
-                                <div class="col-md-3">
-                                    <mat-form-field class="example-full-width">
-                                        <input matInput formControlName="title" placeholder="Task Title">
-                                    </mat-form-field>
-                                </div>
+                               
 
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <mat-form-field class="example-full-width">
-                                        <input matInput [matDatepicker]="pickerstart" formControlName="startdate"
+                                        <input matInput [matDatepicker]="pickerstart"  formControlName="startdate"
                                             placeholder="Choose Start Date">
                                         <mat-datepicker-toggle matSuffix [for]="pickerstart"></mat-datepicker-toggle>
                                         <mat-datepicker #pickerstart></mat-datepicker>
                                     </mat-form-field>
                                 </div>
-                                <div class="col-md-3">
+                                <!-- <div class="col-md-3">
                                    
                                     <mat-form-field class="example-full-width">
                                         <input matInput formControlName="enddate" [matDatepicker]="pickerend"
@@ -41,37 +53,48 @@
                                         <mat-datepicker-toggle matSuffix [for]="pickerend"></mat-datepicker-toggle>
                                         <mat-datepicker #pickerend  [startAt]="startdate"></mat-datepicker>
                                     </mat-form-field>
-                                </div>
+                                </div> -->
+                                <div class="col-md-2">
+                                        <mat-form-field class="example-full-width">
+                                            <input matInput type="number" formControlName="givenhours" placeholder="Total working hours">
+                                        </mat-form-field>
+                                    </div>
+                                    <div class="col-md-5">
+                                            <mat-form-field class="example-full-width">
+                                                <input matInput formControlName="title" placeholder="Task Title">
+                                            </mat-form-field>
+                                        </div>
 
                             </div>
                             <div class="row">
-                                <div class="col-md-2">
+                                   
+                                <!-- <div class="col-md-2">
                                     <mat-form-field class="example-full-width">
-                                        <mat-label>Status {{status}}</mat-label>
+                                        <mat-label>Status</mat-label>
                                         <mat-select formControlName="status" [(ngModel)]="status" >
                                             <mat-option [value]="item.key"  *ngFor="let item of taskStatusArray">
                                                     {{item.value}}
                                             </mat-option>
                                         </mat-select>
                                     </mat-form-field>
-                                </div>
+                                </div> -->
                                 <!-- <div class="col-md-3">
                                   <mat-form-field class="example-full-width">
                                     <input matInput  formControlName="completestatus" placeholder="Status In Percentage" type="text">
                                   </mat-form-field>
                                 </div> -->
-                                <div class="col-md-2">
+                                <!-- <div class="col-md-2">
                                     <mat-form-field class="example-full-width">
                                         <input matInput formControlName="hours" placeholder="Expected Hours"
                                             type="number">
                                     </mat-form-field>
-                                </div>
-                                <div class="col-md-5">
+                                </div> -->
+                                <div class="col-md-9">
                                     <mat-form-field class="example-full-width">
-                                        <input matInput formControlName="description" placeholder="Task Description" type="text">
+                                        <input matInput formControlName="description" placeholder="Task Description (1.some task , 2.some task etc)" type="text">
                                     </mat-form-field>
                                 </div>
-                                <div class="col-md-3">
+                                <!-- <div class="col-md-3">
                                     <section class="example-section">
                                         <label class="example-margin">Progress:</label>
                                         <mat-slider class="example-margin" [(ngModel)]="completestatus"
@@ -79,12 +102,13 @@
 
                                         </mat-slider> &nbsp; {{completestatus}} %
                                     </section>
-                                </div>
+                                </div> -->
 
                             </div>
 
-                            <button mat-raised-button type="submit" class="btn btn-danger pull-right">{{buttonText}}</button>
-                            <button mat-raised-button type="button" class="btn btn-danger pull-right" (click)="showNotification('welcom eto toaster successs','success');">Toaster</button>
+                            <button mat-raised-button type="submit" class="btn btn-danger btn-round pull-right">{{buttonText}}</button>
+                            <!-- <button mat-raised-button type="button" class="btn btn-danger pull-right" (click)="showNotification('welcom eto toaster successs','success');">Toaster</button> -->
+                            <button mat-raised-button type="button" class="btn btn-danger-cancel btn-round pull-right" (click)="cancel()">Cancel</button>
 
                             
                             <div class="clearfix"></div>
@@ -101,6 +125,7 @@
                     <div class="card-header card-header-danger">
                         <h4 class="card-title ">Task List</h4>
                         <p class="card-category">All Task List With Status</p>
+                     
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -113,17 +138,20 @@
                                         Project
                                     </th>
                                     <th>
-                                        Title
+                                        Task (Description)
                                     </th>
                                     <th>
-                                        Start Date
+                                        Task Date
                                     </th>
                                     <th>
+                                        Hours
+                                    </th>
+                                    <!-- <th>
                                         End Date
                                     </th>
                                     <th>
                                         Duration
-                                    </th>
+                                    </th> -->
                                     <th>
                                         Status
                                     </th>
@@ -132,27 +160,31 @@
                                     </th>
                                 </thead>
                                 <tbody>
-                                    <tr *ngFor="let item of taskArray; index as i">
+                                    <tr  [ngClass]="item.completestatus==100?'completed-task':'inprogress-task'"  *ngFor="let item of taskArray; index as i">
                                         <td>
                                             {{i+1}}
                                         </td>
                                         <td>
-                                            {{item.project}}
+                                          {{item.isdeleted}}  {{item.project}}
                                         </td>
                                         <td>
-                                            {{item.title}}
+                                          <a style="text-decoration: underline;color: blue;font-weight: bold;cursor: pointer;" (click)="showDetails(item)"> {{item.title}} </a> 
                                         </td>
                                         <td>
-                                            {{item.startdate.seconds  * 1000 | date:'dd-MM-yyyy'}}
+                                            {{item.startdate.seconds  * 1000 | date:'dd-MMM-yyyy'}}
                                         </td>
                                         <td class="text-primary">
+                                                {{item.givenhours<10?'0'+item.givenhours:item.givenhours}} : H
+                                            </td>
+                                        <!-- <td class="text-primary">
                                             {{item.enddate.seconds  * 1000 | date:'dd-MM-yyyy'}}
                                         </td>
                                         <td class="text-primary">
                                             {{item.hours}}
-                                        </td>
+                                        </td> -->
                                         <td class="text-primary">
-                                            {{item.status}} - ({{item.completestatus}} %)
+                                            <!-- {{item.status}} -  -->
+                                            ({{item.completestatus}} %)
                                         </td>
                                         <td class="td-actions text-right">
                                             <button mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(item)"

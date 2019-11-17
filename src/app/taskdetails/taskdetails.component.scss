@@ -2,3 +2,18 @@
      background: white !important; 
     box-shadow: none !important; 
 }
+.completed-task{
+    background: #78ebc626;
+}
+
+.inprogress-task{
+    background: #e91e6308;
+}
+strong{
+    font-weight: bold;
+   
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 4px 10px;
+    vertical-align: middle;
+}
