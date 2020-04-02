@@ -1,0 +1,22 @@
+input:read-only {
+    cursor: not-allowed;
+    color: #cac4c4;
+}
+.btn-save-update{
+    background: #36b336 !important;
+    color: white !important;
+}
+.btn-edit{
+
+    background: #1ed2ca !important;
+    color: white !important;
+}
+.btn-delete{
+
+    background: #ef1565bf !important;
+    color: white !important;
+}
+
+button:disabled{
+    cursor: not-allowed !important;
+}

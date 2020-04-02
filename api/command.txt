@@ -1,0 +1,36 @@
+Enable-migrations
+add-migration
+update-database
+
+
+
+if facing error on deploying on webhosting server 
+relted to   /bin/Roslyn something like the aplly
+Uninstall-package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+
+Uninstall-package Microsoft.Net.Compilers
+
+
+
+--------------------webconfig---------------
+  <!--<add connectionString="Data Source=localhost;Initial Catalog=jmcop;Integrated Security=True;" name="collegeEntity" providerName="System.Data.SqlClient" />-->
+    <!--LIVE-->
+    <add connectionString="Data Source=4thminds.com;Initial Catalog=thmindsc_jmcop;User ID=thmindsc_thmindsc;password=Jmcop@123;connect timeout=0;" name="collegeEntity" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <!--
+
+---------------------------DbEntity----------------------
+ protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            var instance = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
+            modelBuilder.Entity<User>().ToTable("User");
+            modelBuilder.Entity<Course>().ToTable("Course");
+            modelBuilder.Entity<Banner>().ToTable("Banner");
+            modelBuilder.Entity<Library>().ToTable("Library");
+            modelBuilder.Entity<Gallery>().ToTable("Gallery");
+            modelBuilder.Entity<Faculty>().ToTable("Faculty");
+            modelBuilder.Entity<Events>().ToTable("Events");
+            modelBuilder.Entity<Department>().ToTable("Department");
+            modelBuilder.Entity<Facility>().ToTable("Facility");
+        }
+      

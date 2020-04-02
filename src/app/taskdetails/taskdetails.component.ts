@@ -10,6 +10,9 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { stringify } from '@angular/compiler/src/util';
 import { commonfunction } from 'app/services/common';
 import { PopupsComponent } from 'app/components/popups/popups.component';
+import { TaskDetail } from 'app/common/taskdetail';
+import { ApiServiceClient } from 'app/services/apiserviceclient';
+import { ApiUrl } from 'app/common/constant';
 
 
 @Component({
@@ -44,8 +47,10 @@ export class TaskdetailsComponent implements OnInit {
   pageIndex=0;
 pageSize = 2;  // set default to 10
 pageSizeOptions = [2, 3, 5];
+totalHours:number=0;
 event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
   constructor(
+    private apiclinet:ApiServiceClient,
     private authservice: AngularFireAuth, private route: Router,
    private appService:AppServiceService,private snackbar:MatSnackBar,
    private loader:LoaderService,
@@ -132,6 +137,22 @@ event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
        
          querySnapshot.forEach((doc) => {
           let obj=doc.data();
+          let dt=new Date(obj.startdate.seconds*1000);
+          debugger
+          let taskobj=new TaskDetail();
+          taskobj.title=obj.title;
+          taskobj.project=obj.project;
+          taskobj.description=obj.description;
+          taskobj.hours=obj.givenhours;
+          taskobj.date=(dt.getFullYear()+'-'+(dt.getMonth()+1)+'-'+dt.getDate());
+          taskobj.isPaid=false;
+          debugger
+// this.apiclinet.save(ApiUrl.saveTask,taskobj).subscribe(x=>{
+
+
+// })
+
+
           obj.$key=doc.id;
           if(!obj.hasOwnProperty('givenhours')){
             obj['givenhours']=0;
@@ -143,6 +164,11 @@ event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
          this.taskArray.push(obj);
         });
         this.event.length=this.taskArray.length;
+
+        this.taskArray.forEach(element => {
+          this.totalHours=this.totalHours+  element.givenhours
+        });
+        
       })
     } catch (error) {
       debugger

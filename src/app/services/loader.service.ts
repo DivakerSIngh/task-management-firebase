@@ -25,7 +25,10 @@ constructor(private router: Router) {
   public status: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
   display(value: boolean) {
+    setTimeout(() => {
       this.status.next(value);
+    }, 100);
+      
   }
 
 
@@ -33,12 +36,15 @@ constructor(private router: Router) {
   showNotification(message,type){
     debugger
     //const type = ['','info','success','warning','danger'];
-
+    let msg='Success : '
+if(type=='danger'){
+  msg='Error : '
+}
     const color = Math.floor((Math.random() * 4) + 1);
 
     $.notify({
         icon: "notifications",
-        message: message
+        message: msg + message
 
     },{
         type:type,// type[color],

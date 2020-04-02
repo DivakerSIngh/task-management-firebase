@@ -129,6 +129,7 @@
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
+                            Total Hours: {{totalHours}}
                             <table class="table">
                                 <thead class=" text-primary">
                                     <th>
@@ -138,7 +139,10 @@
                                         Project
                                     </th>
                                     <th>
-                                        Task (Description)
+                                        Task
+                                    </th>
+                                    <th>
+                                        Description
                                     </th>
                                     <th>
                                         Task Date
@@ -165,11 +169,15 @@
                                             {{i+1}}
                                         </td>
                                         <td>
-                                          {{item.isdeleted}}  {{item.project}}
+                                            {{item.project}}
                                         </td>
+                                       
                                         <td>
                                           <a style="text-decoration: underline;color: blue;font-weight: bold;cursor: pointer;" (click)="showDetails(item)"> {{item.title}} </a> 
                                         </td>
+                                        <td>
+                                          {{item.description}}
+                                          </td>
                                         <td>
                                             {{item.startdate.seconds  * 1000 | date:'dd-MMM-yyyy'}}
                                         </td>

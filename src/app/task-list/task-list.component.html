@@ -1,0 +1,288 @@
+<div class="main-content">
+  <div class="container-fluid">
+    
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Task List</h4>
+                      <p class="card-category">Here is the task details and effort</p>
+                  </div>
+                  <div class="card-body">
+                    <form [formGroup]="frmSearchTask" (ngSubmit)="filter()">
+                       
+                        <div class="row">
+                            <div class="col-md-4">
+                               
+                                <mat-form-field class="example-full-width">
+                                        <mat-label>Project</mat-label>
+                                        <mat-select formControlName="project" >
+                                            <mat-option [value]="item.key"  *ngFor="let item of projectsArray">
+                                                    {{item.value}}
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+
+                            </div>
+                           
+
+                            <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                    <input matInput [matDatepicker]="pickerstart"  formControlName="fromdate"
+                                        placeholder="Start Date">
+                                    <mat-datepicker-toggle matSuffix [for]="pickerstart"></mat-datepicker-toggle>
+                                    <mat-datepicker #pickerstart></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-4">
+                              <mat-form-field class="example-full-width">
+                                  <input matInput [matDatepicker]="pickerend"  formControlName="todate"
+                                      placeholder="To Date">
+                                  <mat-datepicker-toggle matSuffix [for]="pickerend"></mat-datepicker-toggle>
+                                  <mat-datepicker #pickerend></mat-datepicker>
+                              </mat-form-field>
+                          </div>
+                        </div>
+
+                        <button mat-raised-button type="submit" class="btn btn-danger btn-round pull-right">Search</button>
+                        <button mat-raised-button type="button" class="btn btn-danger-cancel btn-round pull-right" (click)="cancel()">Cancel</button>
+                        <div class="clearfix"></div>
+                    </form>
+                </div>
+                 
+                    <div class="card-body">
+
+<form [formGroup]="frmTaskList" (ngSubmit)="bulkAddUpdate()">
+  <div class="row">
+  <div class="col-sm-1">Select</div>
+  <div class="col-sm-2">Project</div>
+  <div class="col-sm-2">Title</div>
+  <div class="col-sm-2">Description</div>
+  <div class="col-sm-2">Date</div>
+  <div class="col-sm-1">Hours</div>
+  <div class="col-sm-2">Action</div>
+  </div>
+  <hr>
+                      <div class="row" formArrayName="items"  *ngFor="let item of frmTaskList.get('items').controls; let i = index;">
+                       <div class="col-sm-1" [formGroupName]="i"> 
+                         <mat-checkbox formControlName="isPaid.value"></mat-checkbox></div>
+                        <div class="col-sm-2"  [formGroupName]="i">
+                          <mat-form-field class="example-full-width">
+                            <mat-label>Projects</mat-label>
+                            <mat-select formControlName="project" >
+                                <mat-option [value]="p.key"  *ngFor="let p of projectsArray">
+                                        {{p.value}}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        </div>
+                        
+                        <div class="col-sm-2">
+                          <mat-form-field class="example-full-width" [formGroupName]="i">
+                            <input matInput #refName required   formControlName="title" placeholder="Title">
+                         </mat-form-field>
+                      </div>
+                      <div class="col-sm-2" [formGroupName]="i">
+                        <mat-form-field class="example-full-width">
+                          <input  matInput #refName required   formControlName="description" placeholder="Description">
+                       </mat-form-field>
+                      </div>
+                      <div class="col-sm-2" [formGroupName]="i">
+                        <mat-form-field class="example-full-width">
+                          <input  matInput [matDatepicker]="pickerstart"  formControlName="date"
+                              placeholder="Date">
+                          <mat-datepicker-toggle matSuffix [for]="pickerstart"></mat-datepicker-toggle>
+                          <mat-datepicker #pickerstart></mat-datepicker>
+                      </mat-form-field>
+                    </div>
+                     
+                      <div class="col-sm-1" [formGroupName]="i">
+                        <mat-form-field class="example-full-width">
+                          <input  matInput type="number" formControlName="hours" placeholder="Hours">
+                      </mat-form-field>
+                    </div>
+                    
+                    <div class="col-sm-2 td-actions text-left">
+                    
+                      <button [disabled]="!item.valid" *ngIf="item.value.id.value==undefined" mat-raised-button type="button" matTooltip="Add New Task" (click)="addItem(i)"
+                      [matTooltipPosition]="'above'"
+                      class="btn btn-primary btn-link btn-sm btn-just-icon btn-save-update">
+                      <i class="material-icons">save</i>
+                     
+                  </button>
+                      <button *ngIf="item.value.id.value>0 && item.value.isDisabled.value" mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(i)"
+                        [matTooltipPosition]="'above'"
+                        class="btn btn-primary btn-link btn-sm btn-just-icon btn-edit">
+                        <i class="material-icons">edit</i>
+                        
+                    </button>
+                    <button [disabled]="!item.valid" *ngIf="item.value.id.value>0 && !item.value.isDisabled.value" mat-raised-button type="button" matTooltip="Update task" (click)="update(i)"
+                      [matTooltipPosition]="'above'"
+                      class="btn btn-primary btn-link btn-sm btn-just-icon btn-save-update">
+                      <i class="material-icons">save</i>
+                      
+                  </button>
+                      <button *ngIf="item.value.id.value>0" mat-raised-button type="button" matTooltip="Remove" (click)="delete(item.$key)"
+                          [matTooltipPosition]="'above'"
+                          class="btn btn-danger btn-link btn-sm btn-just-icon btn-delete">
+                          <i class="material-icons">close</i>
+                      </button>
+                    </div>
+                </div>
+                <mat-paginator [length]="totalRecord"
+              [pageSize]="pageSize"
+              [pageSizeOptions]="[10, 20, 30, 100]"
+              (page)="setPage($event)"
+              >
+</mat-paginator>
+              </form>
+
+
+
+
+
+
+
+
+
+
+
+                          <!-- <div class="row">
+                              <div class="col-md-4">
+                                 
+                                  <mat-form-field class="example-full-width">
+                                          <mat-label>Project {{project}}</mat-label>
+                                          <mat-select >
+                                              <mat-option [value]="item.key"  *ngFor="let item of projectsArray">
+                                                      {{item.value}}
+                                              </mat-option>
+                                          </mat-select>
+                                      </mat-form-field>
+  
+                              </div>
+                             
+  
+                              <div class="col-md-4">
+                                  <mat-form-field class="example-full-width">
+                                      <input matInput [matDatepicker]="pickerstart"  formControlName="startdate"
+                                          placeholder="Choose Start Date">
+                                      <mat-datepicker-toggle matSuffix [for]="pickerstart"></mat-datepicker-toggle>
+                                      <mat-datepicker #pickerstart></mat-datepicker>
+                                  </mat-form-field>
+                              </div>
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                    <input matInput [matDatepicker]="pickerstart1" 
+                                        placeholder="Choose To Date">
+                                    <mat-datepicker-toggle matSuffix [for]="pickerstart1"></mat-datepicker-toggle>
+                                    <mat-datepicker #pickerstart1></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+                          </div>
+  
+                          <button mat-raised-button type="submit" class="btn btn-danger btn-round pull-right">Search</button>
+                          <button mat-raised-button type="button" class="btn btn-danger-cancel btn-round pull-right" (click)="cancel()">Cancel</button>
+                          <div class="clearfix"></div>
+                       -->
+                 
+
+
+                      <div class="table-responsive">
+                        <!-- <form [formGroup]="frmTaskList" (ngSubmit)="bulkAddUpdate()">
+
+
+
+
+
+
+
+
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th style="padding: 0px 0px 9px 12px;">
+                                    <mat-checkbox ></mat-checkbox> 
+                                  </th>
+                                  <th>
+                                      Project
+                                  </th>
+                                  <th>
+                                      Task
+                                  </th>
+                                  <th>
+                                    Description
+                                </th>
+                                  <th>
+                                      Date
+                                  </th>
+                                  <th>
+                                      Effort
+                                  </th>
+                                  <th>
+                                    Action
+                                </th>
+                              </thead>
+                              <tbody>
+                                  <tr formArrayName="items"  *ngFor="let item of frmTaskList.get('items').controls; let i = index;">
+                                      <td style="padding: 14px 0px 9px 12px;" [formGroupName]="i">
+                                        <mat-checkbox formControlName="isPayed"></mat-checkbox>
+                                      </td>
+                                      <td>
+                                        <mat-form-field class="example-full-width" [formGroupName]="i">
+                                          <mat-select formControlName="project" >
+                                              <mat-option [value]="item.key"  *ngFor="let item of projectsArray">
+                                                      {{item.value}}
+                                              </mat-option>
+                                          </mat-select>
+                                      </mat-form-field>
+                                      </td>
+                                      
+                                      <td>
+                                        <mat-form-field class="example-full-width" [formGroupName]="i">
+                                          <input matInput #refName required   formControlName="title" placeholder="Title">
+                                       </mat-form-field>
+                                    </td>
+                                    <td [formGroupName]="i">
+                                      <mat-form-field class="example-full-width">
+                                        <input matInput #refName required   formControlName="description" placeholder="Description">
+                                     </mat-form-field>
+                                    </td>
+                                    <td [formGroupName]="i">
+                                      <mat-form-field class="example-full-width">
+                                        <input matInput [matDatepicker]="pickerstart"  formControlName="date"
+                                            placeholder="Date">
+                                        <mat-datepicker-toggle matSuffix [for]="pickerstart"></mat-datepicker-toggle>
+                                        <mat-datepicker #pickerstart></mat-datepicker>
+                                    </mat-form-field>
+                                    </td>
+                                   
+                                    <td [formGroupName]="i">
+                                      <mat-form-field class="example-full-width">
+                                        <input matInput type="number" formControlName="hours" placeholder="Hours">
+                                    </mat-form-field>
+                                    </td>
+                                  
+                                  <td class="td-actions text-right">
+                                    <button mat-raised-button type="button" matTooltip="Edit Task" (click)="add(item)"
+                                        [matTooltipPosition]="'above'"
+                                        class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                        <i class="material-icons">add</i>
+                                    </button>
+                                    <button mat-raised-button type="button" matTooltip="Remove" (click)="delete(item.$key)"
+                                        [matTooltipPosition]="'above'"
+                                        class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                        <i class="material-icons">close</i>
+                                    </button>
+                                </td>
+                                  </tr>
+                                  
+                              </tbody>
+                          </table>
+                        </form> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+

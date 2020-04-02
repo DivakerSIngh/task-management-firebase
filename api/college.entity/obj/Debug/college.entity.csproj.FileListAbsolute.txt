@@ -1,0 +1,151 @@
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.entity.dll.config
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.entity.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.entity.pdb
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.models.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.models.pdb
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\EntityFramework.xml
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.csprojAssemblyReference.cache
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.csproj.CoreCompileInputs.cache
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.csproj.CopyComplete
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.pdb
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.@interface.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\college.@interface.pdb
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Web.Cors.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Web.Http.dll
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.xml
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.xml
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Web.Http.xml
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.xml
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newone2.resources
+D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.entity\obj\Debug\college.entity.csproj.GenerateResource.cache
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.entity.dll.config
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.entity.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.entity.pdb
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.@interface.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.models.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Web.Cors.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Web.Http.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.@interface.pdb
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\college.models.pdb
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.xml
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.xml
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Web.Http.xml
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.xml
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.csprojAssemblyReference.cache
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.Migrations.initial.resources
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.csproj.GenerateResource.cache
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.csproj.CoreCompileInputs.cache
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.csproj.CopyComplete
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.dll
+C:\angular4\JMCOP_Angular\college.webapi\college.entity\obj\Debug\college.entity.pdb
+C:\angular4\api\college.entity\bin\Debug\college.entity.dll.config
+C:\angular4\api\college.entity\bin\Debug\college.entity.dll
+C:\angular4\api\college.entity\bin\Debug\college.entity.pdb
+C:\angular4\api\college.entity\bin\Debug\college.@interface.dll
+C:\angular4\api\college.entity\bin\Debug\college.models.dll
+C:\angular4\api\college.entity\bin\Debug\Newtonsoft.Json.dll
+C:\angular4\api\college.entity\bin\Debug\System.Net.Http.Formatting.dll
+C:\angular4\api\college.entity\bin\Debug\System.Web.Cors.dll
+C:\angular4\api\college.entity\bin\Debug\System.Web.Http.Cors.dll
+C:\angular4\api\college.entity\bin\Debug\System.Web.Http.dll
+C:\angular4\api\college.entity\bin\Debug\college.@interface.pdb
+C:\angular4\api\college.entity\bin\Debug\college.models.pdb
+C:\angular4\api\college.entity\bin\Debug\Newtonsoft.Json.xml
+C:\angular4\api\college.entity\bin\Debug\System.Net.Http.Formatting.xml
+C:\angular4\api\college.entity\bin\Debug\System.Web.Http.xml
+C:\angular4\api\college.entity\bin\Debug\System.Web.Http.Cors.xml
+C:\angular4\api\college.entity\obj\Debug\college.entity.csprojAssemblyReference.cache
+C:\angular4\api\college.entity\obj\Debug\college.entity.Migrations.initial.resources
+C:\angular4\api\college.entity\obj\Debug\college.entity.csproj.GenerateResource.cache
+C:\angular4\api\college.entity\obj\Debug\college.entity.csproj.CoreCompileInputs.cache
+C:\angular4\api\college.entity\obj\Debug\college.entity.csproj.CopyComplete
+C:\angular4\api\college.entity\obj\Debug\college.entity.dll
+C:\angular4\api\college.entity\obj\Debug\college.entity.pdb
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.entity.dll.config
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.entity.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.entity.pdb
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.@interface.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.models.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Cors.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.@interface.pdb
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\college.models.pdb
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\EntityFramework.xml
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.xml
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.xml
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.xml
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.xml
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csprojAssemblyReference.cache
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csproj.CoreCompileInputs.cache
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csproj.CopyComplete
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.dll
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.pdb
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newdb.resources
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csproj.GenerateResource.cache
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.entity.dll.config
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.entity.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.entity.pdb
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.@interface.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.models.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Cors.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.dll
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.@interface.pdb
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\college.models.pdb
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\EntityFramework.xml
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\Newtonsoft.Json.xml
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Net.Http.Formatting.xml
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.xml
+C:\angular4\JMCOP\college.webapi\college.entity\bin\Debug\System.Web.Http.Cors.xml
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csprojAssemblyReference.cache
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newdb.resources
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csproj.GenerateResource.cache
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csproj.CoreCompileInputs.cache
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.csproj.CopyComplete
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.dll
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.pdb
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableadded.resources
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableaddedvolumn.resources
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableaddedvolumnchh.resources
+D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableaddedvolumnchhas.resources
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableadded.resources
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableaddedvolumn.resources
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableaddedvolumnchh.resources
+C:\angular4\JMCOP\college.webapi\college.entity\obj\Debug\college.entity.Migrations.newtableaddedvolumnchhas.resources
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.entity.dll.config
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.entity.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.entity.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.@interface.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.models.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\Newtonsoft.Json.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Net.Http.Formatting.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Web.Cors.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Web.Http.Cors.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Web.Http.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.@interface.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\college.models.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\EntityFramework.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\Newtonsoft.Json.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Net.Http.Formatting.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Web.Http.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Debug\System.Web.Http.Cors.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Debug\college.entity.csprojAssemblyReference.cache
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Debug\college.entity.csproj.CopyComplete
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Debug\college.entity.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Debug\college.entity.pdb

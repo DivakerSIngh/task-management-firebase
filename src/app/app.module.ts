@@ -16,6 +16,9 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { AccountLayoutComponent } from './layouts/account-layout/account-layout.component';
 import { MatProgressSpinnerModule } from '@angular/material';
 import { PopupsComponent } from './components/popups/popups.component';
+import { TaskListComponent } from './task-list/task-list.component';
+import { ApiServiceClient } from './services/apiserviceclient';
+import { HttpClient } from '@angular/common/http';
 
 
 @NgModule({
@@ -36,11 +39,9 @@ import { PopupsComponent } from './components/popups/popups.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    AccountLayoutComponent,
-    
-   
+    AccountLayoutComponent
   ],
-  providers: [],
+  providers: [HttpClient,ApiServiceClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

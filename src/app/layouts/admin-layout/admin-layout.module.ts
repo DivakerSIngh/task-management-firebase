@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
@@ -20,7 +20,8 @@ import {
   MatDatepickerModule,
   MatNativeDateModule,
   MatPaginatorModule,
-  MatDialogModule
+  MatDialogModule,
+  MatCheckboxModule
 } from '@angular/material';
 import { AngularFireAuthModule, AngularFireAuth } from '@angular/fire/auth';
 import { environment } from 'environments/environment';
@@ -30,14 +31,19 @@ import { AppServiceService } from 'app/services/app-service.service';
 import { TaskdetailsComponent } from 'app/taskdetails/taskdetails.component';
 import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/database';
 import { PopupsComponent } from 'app/components/popups/popups.component';
+import { TaskListComponent } from 'app/task-list/task-list.component';
+import { HttpClient, HttpHandler, HttpClientModule } from '@angular/common/http';
+import { ApiServiceClient } from 'app/services/apiserviceclient';
 @NgModule({
   imports: [
+    HttpClientModule,
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
     ReactiveFormsModule,
     MatButtonModule,
     MatRippleModule,
+    MatCheckboxModule,
     MatInputModule,
     MatFormFieldModule,
     MatInputModule,
@@ -59,9 +65,9 @@ import { PopupsComponent } from 'app/components/popups/popups.component';
     TableListComponent,
     MapsComponent,
     TaskdetailsComponent,
-    PopupsComponent
+    PopupsComponent,TaskListComponent 
   ],
-  providers:[AppServiceService,AngularFireAuth,AngularFirestore],
+  providers:[AppServiceService,AngularFireAuth,AngularFirestore,HttpClient,ApiServiceClient,DatePipe],
   entryComponents:[PopupsComponent]
 })
 
