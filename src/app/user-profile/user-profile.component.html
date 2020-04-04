@@ -13,64 +13,53 @@
                           <div class="row">
                               <div class="col-md-4">
                                   <mat-form-field class="example-full-width">
-                                      <input matInput formControlName="company" placeholder="Company">
+                                      <input matInput formControlName="organization" placeholder="Company">
                                     </mat-form-field>
                                
                               </div>
                               <div class="col-md-4">
                               <mat-form-field class="example-full-width">
-                                  <input matInput formControlName="firstname" placeholder="First Name">
+                                  <input matInput formControlName="name" placeholder="Full Name">
                                 </mat-form-field>
-                              </div>
-
-                              <div class="col-md-4">
-                                  <mat-form-field class="example-full-width">
-                                    <input matInput formControlName="lastname" placeholder="Last Name">
-                                  </mat-form-field>
-                              </div>
-                             
-                          </div>
-                          <div class="row">
-                              <div class="col-md-4">
-                                  <mat-form-field class="example-full-width">
-                                    <input matInput formControlName="fullname" placeholder="Full Name" type="email">
-                                  </mat-form-field>
                               </div>
                               <div class="col-md-4">
                                 <mat-form-field class="example-full-width">
                                   <input matInput  formControlName="email" placeholder="Email" type="text">
                                 </mat-form-field>
                               </div>
-                              <div class="col-md-4">
-                                <mat-form-field class="example-full-width">
-                                  <input matInput  formControlName="mobile" placeholder="Mobile" type="text">
-                                </mat-form-field>
-                              </div>
+                             
                           </div>
                           <div class="row">
-                              <div class="col-md-6">
+                            
+                             
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput  formControlName="mobileNo" placeholder="Mobile" type="number">
+                                </mat-form-field>
+                              </div>
+                              <div class="col-md-4">
                                 <mat-form-field class="example-full-width">
                                   <input matInput formControlName="designation" placeholder="Designation" type="text">
                                 </mat-form-field>
                               </div>
-                              <div class="col-md-6">
-                                  <mat-form-field class="example-full-width">
-                                    <input matInput formControlName="skills"  placeholder="Skills" type="text">
-                                  </mat-form-field>
-                                </div>
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput formControlName="ratePerhours" placeholder="Rate Per Hours" type="text">
+                                </mat-form-field>
+                              </div>
                           </div>
                           <div class="row">
-                              
-                              <div class="col-md-6">
+                             
+                              <div class="col-md-4">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput formControlName="skill"  placeholder="Skills" type="text">
+                                  </mat-form-field>
+                                </div>
+                                <div class="col-md-4">
                                   <mat-form-field class="example-full-width">
                                     <input matInput formControlName="address"  placeholder="Address" type="text">
                                   </mat-form-field>
                                 </div>
-                              <div class="col-md-4">
-                                <mat-form-field class="example-full-width">
-                                  <input matInput formControlName="dtcreateddate" placeholder="Last update date" type="text">
-                                </mat-form-field>
-                              </div>
                           </div>
                           <div class="row">
                               <div class="col-md-12">
@@ -94,10 +83,10 @@
                       </a>
                   </div>
                   <div class="card-body">
-                      <h6 class="card-category text-gray">CEO / Co-Founder</h6>
-                      <h4 class="card-title">Alec Thompson</h4>
+                      <h6 class="card-category text-gray">{{this.frmUserDetails.value.designation}}</h6>
+                      <h4 class="card-title">{{this.frmUserDetails.value.name}}</h4>
                       <p class="card-description">
-                          Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                         {{this.frmUserDetails.value.about}}
                       </p>
                       <a href="javascript:void(0)" class="btn btn-danger btn-round">Follow</a>
                   </div>

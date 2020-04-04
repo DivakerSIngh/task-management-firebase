@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Divaker\Desktop\Banner\build\api</_PublishTargetUrl>
+    <_PublishTargetUrl>E:\publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -94,31 +94,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/25/2019 22:06:55</publishTime>
     </File>
     <File Include="bin/college.%40interface.dll">
-      <publishTime>06/16/2019 14:08:16</publishTime>
+      <publishTime>04/02/2020 21:05:18</publishTime>
     </File>
     <File Include="bin/college.%40interface.pdb">
-      <publishTime>06/16/2019 14:08:16</publishTime>
+      <publishTime>04/02/2020 21:05:18</publishTime>
     </File>
     <File Include="bin/college.entity.dll">
-      <publishTime>06/16/2019 14:08:17</publishTime>
+      <publishTime>04/02/2020 21:05:19</publishTime>
     </File>
     <File Include="bin/college.entity.dll.config">
       <publishTime>04/28/2019 18:01:49</publishTime>
     </File>
     <File Include="bin/college.entity.pdb">
-      <publishTime>06/16/2019 14:08:17</publishTime>
+      <publishTime>04/02/2020 21:05:19</publishTime>
     </File>
     <File Include="bin/college.models.dll">
-      <publishTime>06/16/2019 14:08:15</publishTime>
+      <publishTime>04/02/2020 21:05:17</publishTime>
     </File>
     <File Include="bin/college.models.pdb">
-      <publishTime>06/16/2019 14:08:15</publishTime>
+      <publishTime>04/02/2020 21:05:17</publishTime>
     </File>
     <File Include="bin/college.webapi.dll">
-      <publishTime>06/16/2019 14:08:18</publishTime>
+      <publishTime>04/02/2020 21:05:21</publishTime>
     </File>
     <File Include="bin/college.webapi.pdb">
-      <publishTime>06/16/2019 14:08:18</publishTime>
+      <publishTime>04/02/2020 21:05:21</publishTime>
     </File>
     <File Include="bin/CommonServiceLocator.dll">
       <publishTime>04/25/2019 22:06:56</publishTime>
@@ -127,10 +127,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/25/2019 22:06:56</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>04/25/2019 22:06:55</publishTime>
+      <publishTime>11/16/2019 03:00:22</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>04/25/2019 22:06:55</publishTime>
+      <publishTime>11/16/2019 03:00:40</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>04/25/2019 22:06:55</publishTime>
@@ -490,7 +490,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/25/2019 22:06:54</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/04/2019 18:20:55</publishTime>
+      <publishTime>04/02/2020 21:05:27</publishTime>
     </File>
   </ItemGroup>
 </Project>

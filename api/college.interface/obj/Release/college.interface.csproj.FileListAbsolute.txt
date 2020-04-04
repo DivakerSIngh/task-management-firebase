@@ -28,3 +28,8 @@ C:\angular4\JMCOP\college.webapi\college.interface\obj\Release\college.interface
 C:\angular4\JMCOP\college.webapi\college.interface\obj\Release\college.interface.csproj.CoreCompileInputs.cache
 C:\angular4\JMCOP\college.webapi\college.interface\obj\Release\college.@interface.dll
 C:\angular4\JMCOP\college.webapi\college.interface\obj\Release\college.@interface.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\bin\Release\college.@interface.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\bin\Release\college.@interface.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\obj\Release\college.interface.csprojAssemblyReference.cache
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\obj\Release\college.@interface.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\obj\Release\college.@interface.pdb

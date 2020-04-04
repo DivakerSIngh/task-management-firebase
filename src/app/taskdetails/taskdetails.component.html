@@ -26,8 +26,8 @@
                                         <input matInput formControlName="project" placeholder="Project">
                                     </mat-form-field> -->
                                     <mat-form-field class="example-full-width">
-                                            <mat-label>Project {{project}}</mat-label>
-                                            <mat-select formControlName="project" [(ngModel)]="project" >
+                                            <mat-label>Project</mat-label>
+                                            <mat-select formControlName="project"  >
                                                 <mat-option [value]="item.key"  *ngFor="let item of projectsArray">
                                                         {{item.value}}
                                                 </mat-option>

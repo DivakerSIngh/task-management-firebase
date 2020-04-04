@@ -15,8 +15,7 @@ import {
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AccountLayoutComponent } from './layouts/account-layout/account-layout.component';
 import { MatProgressSpinnerModule } from '@angular/material';
-import { PopupsComponent } from './components/popups/popups.component';
-import { TaskListComponent } from './task-list/task-list.component';
+
 import { ApiServiceClient } from './services/apiserviceclient';
 import { HttpClient } from '@angular/common/http';
 
@@ -41,7 +40,7 @@ import { HttpClient } from '@angular/common/http';
     AdminLayoutComponent,
     AccountLayoutComponent
   ],
-  providers: [HttpClient,ApiServiceClient],
+  providers: [ApiServiceClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

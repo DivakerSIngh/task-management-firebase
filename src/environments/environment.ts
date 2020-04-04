@@ -6,6 +6,7 @@
 export const environment = {
   production: false,
   firebaseConfig : {
+   
     apiKey: "AIzaSyDL3eGlqWDG6IY49P8LuLS8YsU2WUh3PuE",
     authDomain: "tasklist-3a4e6.firebaseapp.com",
     databaseURL: "https://tasklist-3a4e6.firebaseio.com",

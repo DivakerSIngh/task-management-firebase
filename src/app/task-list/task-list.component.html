@@ -63,9 +63,11 @@
   <div class="col-sm-2">Action</div>
   </div>
   <hr>
-                      <div class="row" formArrayName="items"  *ngFor="let item of frmTaskList.get('items').controls; let i = index;">
+                      <div class="row" formArrayName="items"  *ngFor="let item of frmTaskList.get('items')['controls']; let i = index;">
                        <div class="col-sm-1" [formGroupName]="i"> 
-                         <mat-checkbox formControlName="isPaid.value"></mat-checkbox></div>
+                       
+                         <mat-checkbox [checked]="isPaid" formControlName="isPaid"></mat-checkbox>
+                        </div>
                         <div class="col-sm-2"  [formGroupName]="i">
                           <mat-form-field class="example-full-width">
                             <mat-label>Projects</mat-label>
@@ -104,25 +106,26 @@
                     
                     <div class="col-sm-2 td-actions text-left">
                     
-                      <button [disabled]="!item.valid" *ngIf="item.value.id.value==undefined" mat-raised-button type="button" matTooltip="Add New Task" (click)="addItem(i)"
+                      <button [disabled]="!item.valid" *ngIf="item.value.id==undefined" mat-raised-button type="button" matTooltip="Add New Task" (click)="addItem(i)"
                       [matTooltipPosition]="'above'"
                       class="btn btn-primary btn-link btn-sm btn-just-icon btn-save-update">
                       <i class="material-icons">save</i>
                      
                   </button>
-                      <button *ngIf="item.value.id.value>0 && item.value.isDisabled.value" mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(i)"
+                  
+                      <button *ngIf="item.value.id>0 && item.value.isDisabled" mat-raised-button type="button" matTooltip="Edit Task" (click)="edit(i)"
                         [matTooltipPosition]="'above'"
                         class="btn btn-primary btn-link btn-sm btn-just-icon btn-edit">
                         <i class="material-icons">edit</i>
                         
                     </button>
-                    <button [disabled]="!item.valid" *ngIf="item.value.id.value>0 && !item.value.isDisabled.value" mat-raised-button type="button" matTooltip="Update task" (click)="update(i)"
+                    <button [disabled]="!item.valid" *ngIf="item.value.id>0 && !item.value.isDisabled" mat-raised-button type="button" matTooltip="Update task" (click)="update(i)"
                       [matTooltipPosition]="'above'"
                       class="btn btn-primary btn-link btn-sm btn-just-icon btn-save-update">
                       <i class="material-icons">save</i>
                       
                   </button>
-                      <button *ngIf="item.value.id.value>0" mat-raised-button type="button" matTooltip="Remove" (click)="delete(item.$key)"
+                      <button *ngIf="item.value.id>0" mat-raised-button type="button" matTooltip="Remove" (click)="delete(item.$key)"
                           [matTooltipPosition]="'above'"
                           class="btn btn-danger btn-link btn-sm btn-just-icon btn-delete">
                           <i class="material-icons">close</i>

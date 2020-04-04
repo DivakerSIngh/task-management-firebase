@@ -56,9 +56,9 @@
     <Compile Include="PagingModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AdminUser.cs" />
+    <Compile Include="UserMaster.cs" />
     <Compile Include="StudentQualificationMapping.cs" />
-    <Compile Include="Task.cs" />
+    <Compile Include="TaskDetail.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

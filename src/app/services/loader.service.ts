@@ -34,7 +34,7 @@ constructor(private router: Router) {
 
 
   showNotification(message,type){
-    debugger
+    
     //const type = ['','info','success','warning','danger'];
     let msg='Success : '
 if(type=='danger'){

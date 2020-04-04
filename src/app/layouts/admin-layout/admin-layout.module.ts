@@ -5,7 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
-import { TableListComponent } from '../../table-list/table-list.component';
 import { MapsComponent } from '../../maps/maps.component';
 
 import {
@@ -62,7 +61,6 @@ import { ApiServiceClient } from 'app/services/apiserviceclient';
   declarations: [
     DashboardComponent,
     UserProfileComponent,
-    TableListComponent,
     MapsComponent,
     TaskdetailsComponent,
     PopupsComponent,TaskListComponent 

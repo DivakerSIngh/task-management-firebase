@@ -5,6 +5,8 @@ import { AppServiceService } from 'app/services/app-service.service';
 import { MatSnackBar } from '@angular/material';
 import { Router } from '@angular/router';
 import { Collection,customeFirebaseList } from 'app/common/collection';
+import { ApiServiceClient } from 'app/services/apiserviceclient';
+import { ApiUrl } from 'app/common/constant';
 
 @Component({
   selector: 'app-signup',
@@ -15,13 +17,13 @@ export class SignupComponent implements OnInit {
 
   frmSignUp = new FormGroup({
     $key: new FormControl(null),
-    fullname: new FormControl('', [Validators.required, Validators.maxLength(10)]),
+    name: new FormControl('', [Validators.required, Validators.maxLength(10)]),
     email: new FormControl('', [Validators.required, Validators.maxLength(50)]),
     password: new FormControl('', [Validators.required, Validators.maxLength(6)]),
     dtactiondate: new FormControl(new Date().toJSON())
   })
   constructor(
-    private authservice: AngularFireAuth, private route: Router,
+    private authservice: AngularFireAuth, private route: Router,private apiClient:ApiServiceClient,
     private appService: AppServiceService, private snackbar: MatSnackBar
 
   ) { }
@@ -29,7 +31,7 @@ export class SignupComponent implements OnInit {
   ngOnInit() {
   }
 
-  signUp() {
+  signUpFirebase() {
     this.appService.doSignUp(this.frmSignUp.value.email, this.frmSignUp.value.password).then((item) => {
       Collection.userdetails.email=this.frmSignUp.value.email;
       Collection.userdetails.userid=item.user.uid;
@@ -44,6 +46,15 @@ export class SignupComponent implements OnInit {
     }).catch((error)=>{
       this.appService.openSnackBar(error.message);
     });
+  }
+
+  
+  signUp() {
+    debugger
+    this.apiClient.post(ApiUrl.saveUser, this.frmSignUp.value).subscribe(response=>{
+      debugger
+
+    })
   }
 
 }

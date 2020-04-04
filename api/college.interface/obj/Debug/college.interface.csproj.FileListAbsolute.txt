@@ -30,6 +30,5 @@ C:\angular4\JMCOP\college.webapi\college.interface\obj\Debug\college.@interface.
 C:\angular4\JMCOP\college.webapi\college.interface\obj\Debug\college.@interface.pdb
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\bin\Debug\college.@interface.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\bin\Debug\college.@interface.pdb
-D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\obj\Debug\college.interface.csprojAssemblyReference.cache
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\obj\Debug\college.@interface.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.interface\obj\Debug\college.@interface.pdb

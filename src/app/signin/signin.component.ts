@@ -6,6 +6,9 @@ import { Router } from '@angular/router';
 import { AppServiceService } from 'app/services/app-service.service';
 import { MatSnackBar } from '@angular/material';
 import { auth } from 'firebase/app';
+import { ApiServiceClient } from 'app/services/apiserviceclient';
+import { ApiUrl } from 'app/common/constant';
+import { LoaderService } from 'app/services/loader.service';
 @Component({
   selector: 'app-signin',
   templateUrl: './signin.component.html',
@@ -20,7 +23,7 @@ export class SigninComponent implements OnInit {
     email: new FormControl('', [
       Validators.required, Validators.email
     ]),
-    password: new FormControl('', [Validators.required, Validators.minLength(6)])
+    password: new FormControl('', [Validators.required, Validators.maxLength(6)])
   });
   public get frmSignIn() {
     return this._frmSignIn;
@@ -28,7 +31,7 @@ export class SigninComponent implements OnInit {
   public set frmSignIn(value) {
     this._frmSignIn = value;
   }
-   constructor(
+   constructor(private apiClient:ApiServiceClient,private loader: LoaderService,
     private authservice: AngularFireAuth, private route: Router,
    private appService:AppServiceService,private snackbar:MatSnackBar
     
@@ -45,6 +48,24 @@ export class SigninComponent implements OnInit {
     document.querySelector('.cont').classList.toggle('s--signup');
   }
   signIn() {
+    debugger
+    let params=[];
+    params.push({
+    'email':this.frmSignIn.value.email,
+    'password':this.frmSignIn.value.password
+    })
+    this.apiClient.get(ApiUrl.loginUser,params).subscribe((res)=>{
+      this.loader.display(true);
+      localStorage.setItem('userid',res.result.id);
+      this.route.navigate(['/home/dashboard']);
+
+    },err=>{
+      this.loader.showNotification(JSON.parse(err.response).exceptionMessage, 'danger');
+    })
+  }
+
+
+  signInFirebase() {
     debugger
     this.appService.doSignIn(this.frmSignIn.value.email, this.frmSignIn.value.password).then((res)=>{
       debugger

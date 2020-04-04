@@ -6,6 +6,8 @@ import { MatSnackBar } from '@angular/material';
 import { customeFirebaseList, Collection } from 'app/common/collection';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { LoaderService } from 'app/services/loader.service';
+import { ApiServiceClient } from 'app/services/apiserviceclient';
+import { ApiUrl } from 'app/common/constant';
 
 @Component({
   selector: 'app-user-profile',
@@ -16,31 +18,59 @@ export class UserProfileComponent implements OnInit {
 
   frmUserDetails = new FormGroup({
     $key: new FormControl(null),
-    userid: new FormControl('', [Validators.required, Validators.maxLength(10)]),
-    firstname: new FormControl('', [Validators.required, Validators.maxLength(50)]),
-    lastname: new FormControl('', [Validators.required, Validators.maxLength(50)]),
-    fullname: new FormControl('', [Validators.required, Validators.maxLength(100)]),
+    id: new FormControl('', [Validators.required, Validators.maxLength(10)]),
+    name: new FormControl('', [Validators.required, Validators.maxLength(100)]),
     email: new FormControl('', [Validators.required, Validators.maxLength(50)]),
-    company: new FormControl('', [Validators.required, Validators.maxLength(100)]),
+    organization: new FormControl('', [Validators.maxLength(100)]),
     address: new FormControl('', [Validators.required, Validators.maxLength(1000)]),
-    mobile: new FormControl('', [Validators.required, Validators.maxLength(10)]),
+    mobileNo: new FormControl('', [Validators.maxLength(10)]),
     designation: new FormControl('', [Validators.required, Validators.maxLength(100)]),
-    skills: new FormControl('', [Validators.required]),
-    profilepic: new FormControl('', [Validators.required]),
+    skill: new FormControl(''),
+    ratePerhours: new FormControl(''),
     about:new FormControl(''),
-    dtcreateddate: new FormControl(new Date().toJSON())
+    // dtcreateddate: new FormControl(new Date().toJSON())
   })
 
 
   constructor(
-    private authservice: AngularFireAuth, private route: Router,
+    private authservice: AngularFireAuth, private route: Router,private apiclient:ApiServiceClient,
     private appService: AppServiceService,private loader:LoaderService
 
   ) { 
     this.loader.display(true);
   }
 
-  getUserDetails(){
+getuser(){
+  debugger
+
+  var userId = localStorage.getItem('userid');
+  let param=[];
+  param.push({'userId':userId})
+
+this.apiclient.get(ApiUrl.getUser,param).subscribe(data=>{
+  debugger
+  this.frmUserDetails.patchValue({
+    $key: data.result.id,
+    id: data.result.id,
+    name: data.result.name,
+    email: data.result.email,
+    organization: data.result.organization,
+    address: data.result.address,
+    mobileNo: data.result.mobileNo,
+    designation: data.result.designation,
+    skill: data.result.skill,
+    about: data.result.about,
+    ratePerhours: data.result.ratePerhours,
+    
+  });
+ 
+});
+
+
+
+}
+
+  getUserDetailsFirebase(){
     debugger
     //this.loader.display(true);
     var userId = localStorage.getItem('userid');
@@ -52,7 +82,7 @@ export class UserProfileComponent implements OnInit {
         let data=doc.data();
         this.frmUserDetails.setValue({
                 $key:doc.id,
-                userid: data.userid,
+                id: data.userid,
                 firstname: data.firstname,
                 lastname: data.lastname,
                 fullname: data.fullname,
@@ -70,24 +100,15 @@ export class UserProfileComponent implements OnInit {
       });
     
     },(err)=>{
-      debugger
+      
     })    
   }
   ngOnInit() {
-    setTimeout(() => {
-      this.getUserDetails();
-    }, 800);
+    this.getuser();
   }
   updateProfile(){
-    this.appService.update(customeFirebaseList.usersProfile,this.frmUserDetails.value.$key,this.frmUserDetails.value).then(()=>{
-    debugger
-
-    }).catch(()=>{
-      debugger
-
-
-    })
-
+    this.apiclient.put(ApiUrl.updateUser,this.frmUserDetails.value).subscribe(response=>{
+    });
   }
 
   ngOnDestroy(){

@@ -44,8 +44,16 @@ namespace college.entity
 
         public void Update(T entity)
         {
-            _dbContext.Entry(entity).State = EntityState.Modified;
-            _dbContext.SaveChanges();
+            try
+            {
+                _dbContext.Entry(entity).State = EntityState.Modified;
+                _dbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
 
         public void Delete(T entity)

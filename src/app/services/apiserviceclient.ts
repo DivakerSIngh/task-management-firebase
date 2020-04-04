@@ -14,6 +14,7 @@ import { HttpClient, HttpHeaders, HttpResponse, HttpResponseBase } from '@angula
 import { LoaderService } from './loader.service';
 
 export const API_BASE_URL = 'http://localhost:50611'// new OpaqueToken('API_BASE_URL');
+//export const API_BASE_URL = 'http://task1.4thminds.com'// new OpaqueToken('API_BASE_URL');
 
 @Injectable()
 export class ApiServiceClient {
@@ -23,7 +24,7 @@ export class ApiServiceClient {
 
     constructor(private loader: LoaderService, @Inject(HttpClient) http: HttpClient, @Optional() @Inject(API_BASE_URL) baseUrl?: string) {
         this.http = http;
-        this.baseUrl = baseUrl ? baseUrl : "http://localhost:50611";
+        this.baseUrl = baseUrl ? baseUrl :'http://localhost:50611';// "http://task1.4thminds.com";
     }
 
     /**
@@ -32,9 +33,9 @@ export class ApiServiceClient {
      * @param pagingModel_pageSize (optional) 
      * @return OK
      */
-    getAll(apiurl, params) {//pagingModel_pageNumber: number | null | undefined, pagingModel__pageSize: number | null | undefined): Observable<ApiResponse> {
+    get(apiurl, params) {//pagingModel_pageNumber: number | null | undefined, pagingModel__pageSize: number | null | undefined): Observable<ApiResponse> {
         let url_ = this.baseUrl + apiurl
-       debugger
+       
         for (var obj in params) {
             for (var key in params[obj]) {
                 url_ += key + '=' + encodeURIComponent(params[obj][key]) + '&';
@@ -92,7 +93,7 @@ export class ApiServiceClient {
                 return _observableOf(resultData200);
             }));
         } else if (status !== 200 && status !== 204) {
-            this.loader.showNotification("An unexpected server error occurred.", 'danger');
+           
             return blobToText(responseBlob).pipe(_observableMergeMap(_responseText => {
                 return throwException("An unexpected server error occurred.", status, _responseText, _headers);
 
@@ -164,7 +165,7 @@ export class ApiServiceClient {
     /**
      * @return OK
      */
-    save(apiurl, course: any): Observable<ApiResponse> {
+    post(apiurl, course: any): Observable<ApiResponse> {
         this.loader.display(true);
         let url_ = this.baseUrl + apiurl;
         url_ = url_.replace(/[?&]$/, "");
@@ -224,7 +225,7 @@ export class ApiServiceClient {
     /**
      * @return OK
      */
-    update(apiurl, course: any): Observable<ApiResponse> {
+    put(apiurl, course: any): Observable<ApiResponse> {
         this.loader.display(true);
         let url_ = this.baseUrl + apiurl;
         url_ = url_.replace(/[?&]$/, "");

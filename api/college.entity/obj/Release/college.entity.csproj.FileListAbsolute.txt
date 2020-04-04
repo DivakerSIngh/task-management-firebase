@@ -131,3 +131,27 @@ D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Release\colleg
 D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Release\college.entity.Migrations.newtableaddedvolumn.resources
 D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Release\college.entity.Migrations.newtableaddedvolumnchh.resources
 D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.entity\obj\Release\college.entity.Migrations.newtableaddedvolumnchhas.resources
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.entity.dll.config
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.entity.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.entity.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.@interface.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.models.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\EntityFramework.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\EntityFramework.SqlServer.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\Newtonsoft.Json.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Net.Http.Formatting.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Cors.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Http.Cors.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Http.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.@interface.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.models.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\EntityFramework.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\EntityFramework.SqlServer.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\Newtonsoft.Json.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Net.Http.Formatting.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Http.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Http.Cors.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Release\college.entity.csprojAssemblyReference.cache
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Release\college.entity.csproj.CopyComplete
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Release\college.entity.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\obj\Release\college.entity.pdb

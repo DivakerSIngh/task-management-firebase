@@ -23,7 +23,7 @@ export class TaskListComponent implements OnInit {
   items: FormArray;
   taskDetail:TaskDetail
   taskDetailList:TaskDetail[] =[] as TaskDetail[];
-  pageSize:number=10;
+  pageSize:number=2;
   pageNumber:number=0;
   totalRecord:number=0;
   constructor(public datepipe: DatePipe,private formBuilder: FormBuilder,private apiClient:ApiServiceClient) { 
@@ -62,7 +62,7 @@ export class TaskListComponent implements OnInit {
   }
 
   getAll(url,params){
-    this.apiClient.getAll(url,params).subscribe(response=>{
+    this.apiClient.get(url,params).subscribe(response=>{
       this.frmTaskList = new FormGroup({   
         items: this.formBuilder.array([])
       });
@@ -75,9 +75,23 @@ export class TaskListComponent implements OnInit {
     })
   }
 edit(i){
-  this.items = this.frmTaskList.get('items') as FormArray;
+  debugger
+   this.items = this.frmTaskList.get('items') as FormArray;
+  // this.items['controls'][i].enable();
+  // this.items['controls'][i].value.isDisabled=false
+ // let obj=this.items['controls'][i].value;
+  let obj=(<FormGroup>this.items['controls'][i]).getRawValue()
+  this.items.controls[i].patchValue({
+    id:obj.id,
+    project:obj.project,
+    title:obj.title,
+    date:obj.date,
+    description:obj.description,
+    hours:obj.hours,
+    isDisabled:false,
+    isPaid:false
+  })
   this.items.controls[i].enable();
-  this.items.controls[i].value.isDisabled.value=false
 }
 setPage(event){
 this.pageSize=event.pageSize;
@@ -92,36 +106,65 @@ this.getAll(ApiUrl.getAllTask, this.params);
 
 
 update(i){
+  debugger
+  this.items = this.frmTaskList.get('items') as FormArray;
 let newObj= new TaskDetail();
-newObj=this.items.controls[i].value;
-newObj.id=this.items.controls[i].value.id.value;
-newObj.isPaid=this.items.controls[i].value.isPaid.value;
-this.apiClient.update(ApiUrl.updateTask,newObj).subscribe(x=>{
+newObj=this.items['controls'][i].value;
+
+this.apiClient.put(ApiUrl.updateTask,newObj).subscribe(response=>{
+  debugger
+  this.items.controls[i].patchValue({
+    id:response.result.id,
+    project:response.result.project,
+    title:response.result.title,
+    date:response.result.date,
+    description:response.result.description,
+    hours:response.result.hours,
+    isDisabled:true,
+    isPaid:false
+  })
+  this.items.controls[i].disable();
 })
 
 }
-
+bulkAddUpdate(){}
+cancel(){}
 
 createItem(taskDetail,isDisabled:boolean=true): FormGroup {
+  
   return this.formBuilder.group({
-    id:new FormControl({value:taskDetail.id}),
+    id:new FormControl(taskDetail.id),
     project: new FormControl({value: taskDetail.project,disabled: isDisabled}, [ Validators.maxLength(50)]),
     title:new FormControl({value:taskDetail.title,disabled: isDisabled},Validators.required),
     description: new FormControl({value:taskDetail.description,disabled: isDisabled}, [Validators.required, Validators.maxLength(50)]),
     date: new FormControl({value:taskDetail.date,disabled: isDisabled}, [Validators.required, Validators.maxLength(50)]),
     hours:new FormControl({value:taskDetail.hours,disabled: isDisabled}),
-    isDisabled:new FormControl({value:isDisabled}),
-    isPaid:new FormControl({value:taskDetail.isPaid}),
+    isDisabled:new FormControl(isDisabled),
+    isPaid:new FormControl(taskDetail.isPaid),
   });
 }
 
 addItem(index): void {
+  debugger
   this.items = this.frmTaskList.get('items') as FormArray;
-  this.apiClient.save(ApiUrl.saveTask,this.items.value[index]).subscribe(response=>{
-    this.items.value[index].id=response.result.id;
-    this.items.value[index].isDisabled=true;
-     this.items = this.frmTaskList.get('items') as FormArray;
-     this.items.push(this.createItem(new TaskDetail(),false));
+  this.apiClient.post(ApiUrl.saveTask,this.items.value[index]).subscribe((response)=>{
+    
+    this.items.controls[index].patchValue({
+      id:response.result.id,
+      project:response.result.project,
+      title:response.result.title,
+      date:response.result.date,
+      description:response.result.description,
+      hours:response.result.hours,
+      isDisabled:true,
+      isPaid:false
+    })
+    this.items.controls[index].disable();
+    this.items.push(this.createItem(new TaskDetail(),false));
+
+  },err=>{
+    this.items['controls'][index].value.isDisabled=false;
+
   })
   
 }
