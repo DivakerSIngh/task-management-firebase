@@ -31,3 +31,4 @@ D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\ap
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.models\bin\Debug\college.models.pdb
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.models\obj\Debug\college.models.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.models\obj\Debug\college.models.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.models\obj\Debug\college.models.csprojAssemblyReference.cache

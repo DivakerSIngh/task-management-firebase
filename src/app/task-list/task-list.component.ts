@@ -16,6 +16,7 @@ import { PageEvent } from '@angular/material';
 })
 export class TaskListComponent implements OnInit {
   frmTaskList :FormGroup;
+  totalhours:number=0;
   params:any=[]
   frmSearchTask :FormGroup;
   pageEvent: PageEvent;
@@ -57,6 +58,7 @@ export class TaskListComponent implements OnInit {
     this.params.push({
     'pageNumber':this.pageNumber,
     'pageSize':this.pageSize
+    
     })
     this.getAll(ApiUrl.getAllTask, this.params);
   }
@@ -68,6 +70,7 @@ export class TaskListComponent implements OnInit {
       });
       this.items = this.frmTaskList.get('items') as FormArray;
       this.totalRecord=response.pages;
+      this.totalhours=response.extra;
         for (let i = 0; i < response.result .length; i++) {
           this.items.push(this.createItem(response.result[i]));
         }
@@ -109,6 +112,7 @@ update(i){
   debugger
   this.items = this.frmTaskList.get('items') as FormArray;
 let newObj= new TaskDetail();
+newObj.userId=localStorage.getItem('userid');
 newObj=this.items['controls'][i].value;
 
 this.apiClient.put(ApiUrl.updateTask,newObj).subscribe(response=>{
@@ -141,11 +145,12 @@ createItem(taskDetail,isDisabled:boolean=true): FormGroup {
     hours:new FormControl({value:taskDetail.hours,disabled: isDisabled}),
     isDisabled:new FormControl(isDisabled),
     isPaid:new FormControl(taskDetail.isPaid),
+    userId:new FormControl(localStorage.getItem('userid'))
   });
 }
 
 addItem(index): void {
-  debugger
+  
   this.items = this.frmTaskList.get('items') as FormArray;
   this.apiClient.post(ApiUrl.saveTask,this.items.value[index]).subscribe((response)=>{
     

@@ -12,4 +12,5 @@ export class TaskDetail{
     hours? : number |undefined;
     isPaid? : boolean |undefined;
     isDisabled?:boolean |undefined;
+    userId:any;
 }

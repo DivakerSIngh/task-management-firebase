@@ -10,5 +10,6 @@ namespace college.models
         public int code { get; set; }
         public object result { get; set; }
         public int pages { get; set; }
+        public object extra { get; set; }
     }
 }

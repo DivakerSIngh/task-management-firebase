@@ -1,5 +1,8 @@
 ﻿using college.@interface;
 using college.models;
+using college.webapi.Models;
+using Microsoft.AspNet.SignalR;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +27,12 @@ namespace college.webapi.Controllers
             [Route("getall")]
             public IHttpActionResult GetAll([System.Web.Http.FromUri] PagingModel pagingModel)
             {
-                var lst = _genericRepository.List();
+            //   var UserId= Request.Headers.
+           var result= Request.Headers.FirstOrDefault(x => x.Key == "UserId").Value.FirstOrDefault();
+            if (result != null)
+            {
+                int userId = Convert.ToInt32(result);
+                var lst = _genericRepository.Get(x => x.UserId == userId);
 
                 #region Paging
                 int count = lst.Count();
@@ -61,7 +69,8 @@ namespace college.webapi.Controllers
                         status = HttpStatusCode.OK.ToString(),
                         code = (int)HttpStatusCode.OK,
                         result = items,
-                        pages = count
+                        pages = count,
+                        extra= lst.Sum(x=>x.Hours)
                     };
                     return Ok(res);
                 }
@@ -69,6 +78,11 @@ namespace college.webapi.Controllers
                 {
                     return BadRequest();
                 }
+            }
+            else {
+                throw new System.Exception("Invalid user");
+            }
+              
 
             }
 
@@ -164,7 +178,22 @@ namespace college.webapi.Controllers
                 taskDetail.CreatedDate = DateTime.Now;
                     _genericRepository.Add(taskDetail);
 
-                    var res = new ApiResponse()
+
+                //send push notification to admin
+                var notificationHubContext = GlobalHost.ConnectionManager.GetHubContext<TaskHub>();
+                if (notificationHubContext != null)
+                {
+                    var notificationViewModel = new NotificationViewModel() { 
+                    data= taskDetail,
+                    type="new task",
+                    notificationFor="admin"
+                    };
+                    var data = JsonConvert.SerializeObject(notificationViewModel);
+                    notificationHubContext.Clients.All.pushNewContent(data);
+                }
+
+
+                var res = new ApiResponse()
                     {
                         status = HttpStatusCode.OK.ToString(),
                         code = (int)HttpStatusCode.OK,

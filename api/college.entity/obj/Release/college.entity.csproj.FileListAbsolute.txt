@@ -145,8 +145,6 @@ D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\ap
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Http.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.@interface.pdb
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\college.models.pdb
-D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\EntityFramework.xml
-D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\EntityFramework.SqlServer.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\Newtonsoft.Json.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Net.Http.Formatting.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.entity\bin\Release\System.Web.Http.xml

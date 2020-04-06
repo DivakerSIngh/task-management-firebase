@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNet.SignalR;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -24,7 +26,21 @@ namespace college.webapi.Controllers
         // POST api/values
         public void Post([FromBody]string value)
         {
+            var notificationHubContext =GlobalHost.ConnectionManager.GetHubContext<TaskHub>();
+            if (notificationHubContext != null)
+            {
+                var resp = new
+                {
+                    type = "notification",
+                    data = "datat recieved"
+                };
+           
+                notificationHubContext.Clients.All.pushNewContent(JsonConvert.SerializeObject(resp));
+            }
+
         }
+
+
 
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)

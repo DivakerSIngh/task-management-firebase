@@ -11,4 +11,7 @@ export const environment = {
     appId: "1:549144425266:web:68a082bb16bdcc89d49d2b",
     measurementId: "G-EVT1KX5DFD"
   }
+  ,
+  signalRHuburl:'http://task1.4thminds.com/signalr',
+  apiBaseUrl:'http://task1.4thminds.com/'
 };

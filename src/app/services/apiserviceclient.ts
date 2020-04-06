@@ -12,8 +12,9 @@ import { Observable, throwError as _observableThrow, of as _observableOf } from 
 import { Injectable, Inject, Optional } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpResponse, HttpResponseBase } from '@angular/common/http';
 import { LoaderService } from './loader.service';
+import { environment } from 'environments/environment';
 
-export const API_BASE_URL = 'http://localhost:50611'// new OpaqueToken('API_BASE_URL');
+export const API_BASE_URL =environment.apiBaseUrl;// 'http://localhost:50611'// new OpaqueToken('API_BASE_URL');
 //export const API_BASE_URL = 'http://task1.4thminds.com'// new OpaqueToken('API_BASE_URL');
 
 @Injectable()
@@ -24,7 +25,7 @@ export class ApiServiceClient {
 
     constructor(private loader: LoaderService, @Inject(HttpClient) http: HttpClient, @Optional() @Inject(API_BASE_URL) baseUrl?: string) {
         this.http = http;
-        this.baseUrl = baseUrl ? baseUrl :'http://localhost:50611';// "http://task1.4thminds.com";
+        this.baseUrl = baseUrl ? baseUrl : environment.apiBaseUrl;//'http://localhost:50611';// "http://task1.4thminds.com";
     }
 
     /**
@@ -58,7 +59,8 @@ export class ApiServiceClient {
             observe: "response",
             responseType: "blob",
             headers: new HttpHeaders({
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "UserId":localStorage.getItem('userid')
             })
         };
 
@@ -118,7 +120,8 @@ export class ApiServiceClient {
             responseType: "blob",
             headers: new HttpHeaders({
                 "Content-Type": "application/json",
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "UserId":localStorage.getItem('userid')
             })
         };
 
@@ -291,6 +294,7 @@ export class ApiResponse {
     code: number;
     result: any;
     pages: any;
+    extra:any;
 }
 
 export class ApiException extends Error {

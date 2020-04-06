@@ -139,13 +139,13 @@ event:any={length: 0, pageIndex: 0, pageSize: 3, previousPageIndex: 0}
           let obj=doc.data();
           let dt=new Date(obj.startdate.seconds*1000);
           debugger
-          let taskobj=new TaskDetail();
-          taskobj.title=obj.title;
-          taskobj.project=obj.project;
-          taskobj.description=obj.description;
-          taskobj.hours=obj.givenhours;
-          taskobj.date=(dt.getFullYear()+'-'+(dt.getMonth()+1)+'-'+dt.getDate());
-          taskobj.isPaid=false;
+          // let taskobj=new TaskDetail();
+          // taskobj.title=obj.title;
+          // taskobj.project=obj.project;
+          // taskobj.description=obj.description;
+          // taskobj.hours=obj.givenhours;
+          // taskobj.date=(dt.getFullYear()+'-'+(dt.getMonth()+1)+'-'+dt.getDate());
+          // taskobj.isPaid=false;
           debugger
 // this.apiclinet.save(ApiUrl.saveTask,taskobj).subscribe(x=>{
 

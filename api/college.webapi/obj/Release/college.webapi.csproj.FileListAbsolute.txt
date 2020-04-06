@@ -1,412 +1,103 @@
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\ApplicationInsights.config
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.webapi.dll.config
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.webapi.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.webapi.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Antlr3.Runtime.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\CloudinaryDotNet.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.@interface.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.entity.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.models.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\CommonServiceLocator.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.Agent.Intercept.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.Web.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.ApplicationInsights.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.Web.Infrastructure.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Newtonsoft.Json.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Net.Http.Formatting.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Cors.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Helpers.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Http.Cors.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Http.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Http.WebHost.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Mvc.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Optimization.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Razor.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.WebPages.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Abstractions.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Configuration.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Container.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Interception.Configuration.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Interception.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.ServiceLocation.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\WebGrease.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\EntityFramework.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\EntityFramework.SqlServer.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.entity.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.entity.dll.config
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.@interface.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\college.models.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\CommonServiceLocator.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Net.Http.Formatting.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Http.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Http.Cors.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Helpers.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Http.WebHost.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Mvc.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Optimization.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.Razor.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.WebPages.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Abstractions.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Configuration.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Container.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Interception.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.Interception.Configuration.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Unity.ServiceLocation.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Antlr3.Runtime.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Microsoft.AI.Web.xml
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\obj\Release\college.webapi.csprojAssemblyReference.cache
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CoreCompileInputs.cache
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CopyComplete
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\obj\Release\college.webapi.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\obj\Release\college.webapi.pdb
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\Swashbuckle.Core.dll
-C:\angular4\JMCOP_Angular\college.webapi\college.webapi\bin\WebActivatorEx.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\ApplicationInsights.config
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.webapi.dll.config
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.webapi.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.webapi.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Antlr3.Runtime.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\CloudinaryDotNet.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.@interface.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.entity.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.models.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\CommonServiceLocator.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.Agent.Intercept.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.PerfCounterCollector.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.Web.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.ApplicationInsights.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.Web.Infrastructure.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Newtonsoft.Json.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Swashbuckle.Core.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Net.Http.Formatting.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Cors.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Helpers.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Http.Cors.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Http.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Http.WebHost.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Mvc.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Optimization.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Razor.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.WebPages.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Abstractions.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Configuration.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Container.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Interception.Configuration.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Interception.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.ServiceLocation.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\WebActivatorEx.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\WebGrease.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\EntityFramework.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\EntityFramework.SqlServer.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.entity.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.entity.dll.config
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.@interface.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\college.models.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\CommonServiceLocator.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Net.Http.Formatting.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Http.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Http.Cors.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Helpers.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Http.WebHost.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Mvc.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Optimization.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.Razor.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.WebPages.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Abstractions.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Configuration.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Container.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Interception.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.Interception.Configuration.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Unity.ServiceLocation.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Antlr3.Runtime.pdb
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\bin\Microsoft.AI.Web.xml
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\obj\Release\college.webapi.csprojAssemblyReference.cache
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CoreCompileInputs.cache
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CopyComplete
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\obj\Release\college.webapi.dll
-D:\FreelanceProject\JMCOP_Project\Project\college.webapi\college.webapi\obj\Release\college.webapi.pdb
-C:\angular4\api\college.webapi\bin\ApplicationInsights.config
-C:\angular4\api\college.webapi\bin\college.webapi.dll.config
-C:\angular4\api\college.webapi\bin\college.webapi.dll
-C:\angular4\api\college.webapi\bin\college.webapi.pdb
-C:\angular4\api\college.webapi\bin\Antlr3.Runtime.dll
-C:\angular4\api\college.webapi\bin\CloudinaryDotNet.dll
-C:\angular4\api\college.webapi\bin\college.@interface.dll
-C:\angular4\api\college.webapi\bin\college.entity.dll
-C:\angular4\api\college.webapi\bin\college.models.dll
-C:\angular4\api\college.webapi\bin\CommonServiceLocator.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AI.Agent.Intercept.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AI.DependencyCollector.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AI.Web.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AI.WindowsServer.dll
-C:\angular4\api\college.webapi\bin\Microsoft.ApplicationInsights.dll
-C:\angular4\api\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\angular4\api\college.webapi\bin\Microsoft.Web.Infrastructure.dll
-C:\angular4\api\college.webapi\bin\Newtonsoft.Json.dll
-C:\angular4\api\college.webapi\bin\Swashbuckle.Core.dll
-C:\angular4\api\college.webapi\bin\System.Diagnostics.DiagnosticSource.dll
-C:\angular4\api\college.webapi\bin\System.Net.Http.Formatting.dll
-C:\angular4\api\college.webapi\bin\System.Web.Cors.dll
-C:\angular4\api\college.webapi\bin\System.Web.Helpers.dll
-C:\angular4\api\college.webapi\bin\System.Web.Http.Cors.dll
-C:\angular4\api\college.webapi\bin\System.Web.Http.dll
-C:\angular4\api\college.webapi\bin\System.Web.Http.WebHost.dll
-C:\angular4\api\college.webapi\bin\System.Web.Mvc.dll
-C:\angular4\api\college.webapi\bin\System.Web.Optimization.dll
-C:\angular4\api\college.webapi\bin\System.Web.Razor.dll
-C:\angular4\api\college.webapi\bin\System.Web.WebPages.Deployment.dll
-C:\angular4\api\college.webapi\bin\System.Web.WebPages.dll
-C:\angular4\api\college.webapi\bin\System.Web.WebPages.Razor.dll
-C:\angular4\api\college.webapi\bin\Unity.Abstractions.dll
-C:\angular4\api\college.webapi\bin\Unity.Configuration.dll
-C:\angular4\api\college.webapi\bin\Unity.Container.dll
-C:\angular4\api\college.webapi\bin\Unity.Interception.Configuration.dll
-C:\angular4\api\college.webapi\bin\Unity.Interception.dll
-C:\angular4\api\college.webapi\bin\Unity.RegistrationByConvention.dll
-C:\angular4\api\college.webapi\bin\Unity.ServiceLocation.dll
-C:\angular4\api\college.webapi\bin\WebActivatorEx.dll
-C:\angular4\api\college.webapi\bin\WebGrease.dll
-C:\angular4\api\college.webapi\bin\EntityFramework.dll
-C:\angular4\api\college.webapi\bin\EntityFramework.SqlServer.dll
-C:\angular4\api\college.webapi\bin\college.entity.pdb
-C:\angular4\api\college.webapi\bin\college.entity.dll.config
-C:\angular4\api\college.webapi\bin\college.@interface.pdb
-C:\angular4\api\college.webapi\bin\college.models.pdb
-C:\angular4\api\college.webapi\bin\CommonServiceLocator.pdb
-C:\angular4\api\college.webapi\bin\System.Net.Http.Formatting.xml
-C:\angular4\api\college.webapi\bin\System.Web.Http.xml
-C:\angular4\api\college.webapi\bin\System.Web.Http.Cors.xml
-C:\angular4\api\college.webapi\bin\System.Web.Helpers.xml
-C:\angular4\api\college.webapi\bin\System.Web.Http.WebHost.xml
-C:\angular4\api\college.webapi\bin\System.Web.Mvc.xml
-C:\angular4\api\college.webapi\bin\System.Web.Optimization.xml
-C:\angular4\api\college.webapi\bin\System.Web.Razor.xml
-C:\angular4\api\college.webapi\bin\System.Web.WebPages.xml
-C:\angular4\api\college.webapi\bin\System.Web.WebPages.Deployment.xml
-C:\angular4\api\college.webapi\bin\System.Web.WebPages.Razor.xml
-C:\angular4\api\college.webapi\bin\Unity.Abstractions.pdb
-C:\angular4\api\college.webapi\bin\Unity.Configuration.pdb
-C:\angular4\api\college.webapi\bin\Unity.Container.pdb
-C:\angular4\api\college.webapi\bin\Unity.Interception.pdb
-C:\angular4\api\college.webapi\bin\Unity.Interception.Configuration.pdb
-C:\angular4\api\college.webapi\bin\Unity.RegistrationByConvention.pdb
-C:\angular4\api\college.webapi\bin\Unity.ServiceLocation.pdb
-C:\angular4\api\college.webapi\bin\Antlr3.Runtime.pdb
-C:\angular4\api\college.webapi\bin\System.Diagnostics.DiagnosticSource.xml
-C:\angular4\api\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\angular4\api\college.webapi\bin\Microsoft.AI.DependencyCollector.xml
-C:\angular4\api\college.webapi\bin\Microsoft.AI.WindowsServer.xml
-C:\angular4\api\college.webapi\bin\Microsoft.AI.Web.xml
-C:\angular4\api\college.webapi\obj\Release\college.webapi.csprojAssemblyReference.cache
-C:\angular4\api\college.webapi\obj\Release\college.webapi.csproj.CoreCompileInputs.cache
-C:\angular4\api\college.webapi\obj\Release\college.webapi.csproj.CopyComplete
-C:\angular4\api\college.webapi\obj\Release\college.webapi.dll
-C:\angular4\api\college.webapi\obj\Release\college.webapi.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\ApplicationInsights.config
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.webapi.dll.config
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.webapi.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.webapi.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Antlr3.Runtime.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\CloudinaryDotNet.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.@interface.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.entity.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.models.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\CommonServiceLocator.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.Agent.Intercept.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.PerfCounterCollector.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.Web.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.ApplicationInsights.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.Web.Infrastructure.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Newtonsoft.Json.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Swashbuckle.Core.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Net.Http.Formatting.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Cors.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Helpers.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.Cors.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.WebHost.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Mvc.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Optimization.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Razor.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Abstractions.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Configuration.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Container.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.Configuration.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.ServiceLocation.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\WebActivatorEx.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\WebGrease.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\EntityFramework.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\EntityFramework.SqlServer.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.entity.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.entity.dll.config
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.@interface.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\college.models.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\CommonServiceLocator.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Net.Http.Formatting.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.Cors.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Helpers.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.WebHost.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Mvc.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Optimization.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.Razor.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Abstractions.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Configuration.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Container.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.Configuration.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Unity.ServiceLocation.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Antlr3.Runtime.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.Web.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.csprojAssemblyReference.cache
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CoreCompileInputs.cache
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CopyComplete
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\ApplicationInsights.config
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.webapi.dll.config
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.webapi.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.webapi.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Antlr3.Runtime.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\AutoMapper.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\CloudinaryDotNet.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.@interface.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.entity.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.models.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\CommonServiceLocator.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.Agent.Intercept.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.Web.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.ApplicationInsights.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.Web.Infrastructure.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Newtonsoft.Json.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Swashbuckle.Core.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Net.Http.Formatting.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Cors.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Helpers.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.Cors.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.WebHost.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Mvc.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Optimization.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Razor.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Abstractions.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Configuration.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Container.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.Configuration.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.ServiceLocation.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\WebActivatorEx.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\WebGrease.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\EntityFramework.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\EntityFramework.SqlServer.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.entity.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.entity.dll.config
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.@interface.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\college.models.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\AutoMapper.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\AutoMapper.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\CommonServiceLocator.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Net.Http.Formatting.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.Cors.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Helpers.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Http.WebHost.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Mvc.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Optimization.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.Razor.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Deployment.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Web.WebPages.Razor.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Abstractions.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Configuration.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Container.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.Interception.Configuration.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.RegistrationByConvention.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Unity.ServiceLocation.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Antlr3.Runtime.pdb
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\System.Diagnostics.DiagnosticSource.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.DependencyCollector.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.WindowsServer.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\Microsoft.AI.Web.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\EntityFramework.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\bin\EntityFramework.SqlServer.xml
-C:\angular4\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.csprojAssemblyReference.cache
-C:\angular4\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CoreCompileInputs.cache
-C:\angular4\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.csproj.CopyComplete
-C:\angular4\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.dll
-C:\angular4\JMCOP\college.webapi\college.webapi\obj\Release\college.webapi.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\AutoMapper.dll
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\AutoMapper.pdb
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\AutoMapper.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\EntityFramework.xml
-D:\FreelanceProject\JMCOP\JMCOP\college.webapi\college.webapi\bin\EntityFramework.SqlServer.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\ApplicationInsights.config
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\college.webapi.dll.config
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\college.webapi.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\college.webapi.pdb
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Win32.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\netstandard.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.AppContext.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Collections.Concurrent.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Collections.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Collections.NonGeneric.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Collections.Specialized.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ComponentModel.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ComponentModel.EventBasedAsync.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ComponentModel.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ComponentModel.TypeConverter.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Console.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Data.Common.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.Contracts.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.Debug.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.FileVersionInfo.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.Process.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.StackTrace.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.Tools.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.TraceSource.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.Tracing.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Drawing.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Dynamic.Runtime.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Globalization.Calendars.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Globalization.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Globalization.Extensions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.Compression.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.Compression.ZipFile.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.FileSystem.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.FileSystem.DriveInfo.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.FileSystem.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.FileSystem.Watcher.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.IsolatedStorage.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.MemoryMappedFiles.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.Pipes.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.UnmanagedMemoryStream.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Linq.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Linq.Expressions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Linq.Parallel.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Linq.Queryable.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Http.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.NameResolution.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.NetworkInformation.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Ping.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Requests.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Security.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Sockets.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.WebHeaderCollection.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.WebSockets.Client.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.WebSockets.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ObjectModel.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Reflection.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Reflection.Extensions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Reflection.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Resources.Reader.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Resources.ResourceManager.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Resources.Writer.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Extensions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Handles.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.InteropServices.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Numerics.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Serialization.Formatters.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Serialization.Json.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Serialization.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.Serialization.Xml.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Claims.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Cryptography.Algorithms.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Cryptography.Csp.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Cryptography.Encoding.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Cryptography.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Cryptography.X509Certificates.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Principal.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.SecureString.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Text.Encoding.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Text.Encoding.Extensions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Text.RegularExpressions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Overlapped.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Tasks.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Tasks.Parallel.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Thread.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.ThreadPool.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Timer.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ValueTuple.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Xml.ReaderWriter.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Xml.XDocument.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Xml.XmlDocument.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Xml.XmlSerializer.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Xml.XPath.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Xml.XPath.XDocument.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Antlr3.Runtime.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\AutoMapper.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\CloudinaryDotNet.dll
@@ -423,16 +114,64 @@ D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\ap
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AI.Web.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AI.WindowsServer.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.ApplicationInsights.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Authorization.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Connections.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Routing.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.Common.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.Core.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.WebSockets.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.ObjectPool.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Options.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Primitives.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Net.Http.Headers.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.Cors.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.Security.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Web.Infrastructure.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Newtonsoft.Json.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Owin.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Swashbuckle.Core.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Buffers.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.ComponentModel.Annotations.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Diagnostics.DiagnosticSource.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.Pipelines.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Memory.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Http.Formatting.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.WebSockets.WebSocketProtocol.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Numerics.Vectors.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Security.Principal.Windows.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Text.Encodings.Web.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Channels.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Tasks.Extensions.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Cors.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Helpers.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.Cors.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.dll
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.Owin.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.WebHost.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Mvc.dll
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Optimization.dll
@@ -458,9 +197,54 @@ D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\ap
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\CommonServiceLocator.pdb
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\EntityFramework.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\EntityFramework.SqlServer.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Authorization.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Connections.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Connections.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Connections.Common.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Routing.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.Common.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.Core.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.WebSockets.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.ObjectPool.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Options.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Extensions.Primitives.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Net.Http.Headers.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.Cors.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Microsoft.Owin.Security.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\Newtonsoft.Json.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Buffers.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.IO.Pipelines.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Memory.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Net.Http.Formatting.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Numerics.Vectors.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Text.Encodings.Web.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Channels.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Threading.Tasks.Extensions.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.Cors.xml
+D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.Owin.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Helpers.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Http.WebHost.xml
 D:\FreelanceProject\4thminds Product\taskmgmt-latest\task-management-firebase\api\college.webapi\bin\System.Web.Mvc.xml

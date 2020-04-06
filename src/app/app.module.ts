@@ -18,6 +18,7 @@ import { MatProgressSpinnerModule } from '@angular/material';
 
 import { ApiServiceClient } from './services/apiserviceclient';
 import { HttpClient } from '@angular/common/http';
+import { SignalRClient } from './services/signalrClient';
 
 
 @NgModule({
@@ -40,7 +41,7 @@ import { HttpClient } from '@angular/common/http';
     AdminLayoutComponent,
     AccountLayoutComponent
   ],
-  providers: [ApiServiceClient],
+  providers: [ApiServiceClient,SignalRClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
